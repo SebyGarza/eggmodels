@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import pandas as pd
 
 # URL of the NFL 2023 schedule page
 url = "https://www.pro-football-reference.com/years/2023/games.htm"
@@ -33,20 +34,44 @@ if response.status_code == 200:
             columns = row.find_all(["th", "td"])
             if len(columns) >= 7:  # Ensure there are enough columns for the data you need
                 week = columns[0].text.strip()
-                day = columns[1].text.strip()
-                date = columns[2].text.strip()
-                time = columns[3].text.strip()
-                team_names1 = columns[4].text.strip()
-                team_names2 = columns[6].text.strip()
-                game_data = {
-                    "Week": week,
-                    "Day": day,
-                    "Date": date,
-                    "Time": time,
-                    "TeamNames1": team_names1,
-                    "TeamNames2": team_names2,
-                }
-                schedule_data.append(game_data)
+                if week != "Week":  # Exclude rows where Week is "Week"
+                    day = columns[1].text.strip()
+                    date = columns[2].text.strip()
+                    time = columns[3].text.strip()
+                    at = columns[5].text.strip()
+                    if at == "@":
+                        team_names1 = columns[6].text.strip()
+                        scoreA = columns[9].text.strip()
+
+                        team_names2 = columns[4].text.strip()
+                        scoreH = columns[8].text.strip()
+                    else: 
+                        team_names1 = columns[4].text.strip()
+                        scoreA = columns[8].text.strip()
+
+                        team_names2 = columns[6].text.strip()
+                        scoreH = columns[9].text.strip()
+
+                    game_data = {
+                        "Week": week,
+                        "Day": day,
+                        "Date": date,
+                        "Time": time,
+                        "Home": team_names1,
+                        "Away": team_names2,
+                        "ScoreH": scoreH,  
+                        "ScoreA": scoreA,
+                        "ElopreH": "",
+                        "ElopreA": "",
+                        "ElopostH": "",
+                        "ElopostA": "",
+                        "probH": "",
+                        "probA": "",
+                    }
+                    schedule_data.append(game_data)
+
+        # Create a Pandas DataFrame from the collected data
+        df = pd.DataFrame(schedule_data)
 
         # Serialize the collected data as a JSON file
         with open("nfl_schedule.json", "w") as json_file:
