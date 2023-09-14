@@ -1,0 +1,2322 @@
+[
+  {
+    "Week": "Week",
+    "Day": "Day",
+    "Date": "Date",
+    "Time": "Time",
+    "TeamNames1": "Winner/tie",
+    "TeamNames2": "Loser/tie"
+  },
+  {
+    "Week": "1",
+    "Day": "Thu",
+    "Date": "2023-09-07",
+    "Time": "8:20PM",
+    "TeamNames1": "Detroit Lions",
+    "TeamNames2": "Kansas City Chiefs"
+  },
+  {
+    "Week": "1",
+    "Day": "Sun",
+    "Date": "2023-09-10",
+    "Time": "1:00PM",
+    "TeamNames1": "Atlanta Falcons",
+    "TeamNames2": "Carolina Panthers"
+  },
+  {
+    "Week": "1",
+    "Day": "Sun",
+    "Date": "2023-09-10",
+    "Time": "1:00PM",
+    "TeamNames1": "Cleveland Browns",
+    "TeamNames2": "Cincinnati Bengals"
+  },
+  {
+    "Week": "1",
+    "Day": "Sun",
+    "Date": "2023-09-10",
+    "Time": "1:00PM",
+    "TeamNames1": "Jacksonville Jaguars",
+    "TeamNames2": "Indianapolis Colts"
+  },
+  {
+    "Week": "1",
+    "Day": "Sun",
+    "Date": "2023-09-10",
+    "Time": "1:00PM",
+    "TeamNames1": "Washington Commanders",
+    "TeamNames2": "Arizona Cardinals"
+  },
+  {
+    "Week": "1",
+    "Day": "Sun",
+    "Date": "2023-09-10",
+    "Time": "1:00PM",
+    "TeamNames1": "Baltimore Ravens",
+    "TeamNames2": "Houston Texans"
+  },
+  {
+    "Week": "1",
+    "Day": "Sun",
+    "Date": "2023-09-10",
+    "Time": "1:00PM",
+    "TeamNames1": "Tampa Bay Buccaneers",
+    "TeamNames2": "Minnesota Vikings"
+  },
+  {
+    "Week": "1",
+    "Day": "Sun",
+    "Date": "2023-09-10",
+    "Time": "1:00PM",
+    "TeamNames1": "New Orleans Saints",
+    "TeamNames2": "Tennessee Titans"
+  },
+  {
+    "Week": "1",
+    "Day": "Sun",
+    "Date": "2023-09-10",
+    "Time": "1:00PM",
+    "TeamNames1": "San Francisco 49ers",
+    "TeamNames2": "Pittsburgh Steelers"
+  },
+  {
+    "Week": "1",
+    "Day": "Sun",
+    "Date": "2023-09-10",
+    "Time": "4:25PM",
+    "TeamNames1": "Green Bay Packers",
+    "TeamNames2": "Chicago Bears"
+  },
+  {
+    "Week": "1",
+    "Day": "Sun",
+    "Date": "2023-09-10",
+    "Time": "4:25PM",
+    "TeamNames1": "Las Vegas Raiders",
+    "TeamNames2": "Denver Broncos"
+  },
+  {
+    "Week": "1",
+    "Day": "Sun",
+    "Date": "2023-09-10",
+    "Time": "4:25PM",
+    "TeamNames1": "Miami Dolphins",
+    "TeamNames2": "Los Angeles Chargers"
+  },
+  {
+    "Week": "1",
+    "Day": "Sun",
+    "Date": "2023-09-10",
+    "Time": "4:25PM",
+    "TeamNames1": "Philadelphia Eagles",
+    "TeamNames2": "New England Patriots"
+  },
+  {
+    "Week": "1",
+    "Day": "Sun",
+    "Date": "2023-09-10",
+    "Time": "4:25PM",
+    "TeamNames1": "Los Angeles Rams",
+    "TeamNames2": "Seattle Seahawks"
+  },
+  {
+    "Week": "1",
+    "Day": "Sun",
+    "Date": "2023-09-10",
+    "Time": "8:20PM",
+    "TeamNames1": "Dallas Cowboys",
+    "TeamNames2": "New York Giants"
+  },
+  {
+    "Week": "1",
+    "Day": "Mon",
+    "Date": "2023-09-11",
+    "Time": "8:15PM",
+    "TeamNames1": "New York Jets",
+    "TeamNames2": "Buffalo Bills"
+  },
+  {
+    "Week": "Week",
+    "Day": "Day",
+    "Date": "Date",
+    "Time": "Time",
+    "TeamNames1": "Visitor",
+    "TeamNames2": "Home"
+  },
+  {
+    "Week": "2",
+    "Day": "Thu",
+    "Date": "2023-09-14",
+    "Time": "8:15PM",
+    "TeamNames1": "Minnesota Vikings",
+    "TeamNames2": "Philadelphia Eagles"
+  },
+  {
+    "Week": "2",
+    "Day": "Sun",
+    "Date": "2023-09-17",
+    "Time": "1:00PM",
+    "TeamNames1": "Chicago Bears",
+    "TeamNames2": "Tampa Bay Buccaneers"
+  },
+  {
+    "Week": "2",
+    "Day": "Sun",
+    "Date": "2023-09-17",
+    "Time": "1:00PM",
+    "TeamNames1": "Indianapolis Colts",
+    "TeamNames2": "Houston Texans"
+  },
+  {
+    "Week": "2",
+    "Day": "Sun",
+    "Date": "2023-09-17",
+    "Time": "1:00PM",
+    "TeamNames1": "Green Bay Packers",
+    "TeamNames2": "Atlanta Falcons"
+  },
+  {
+    "Week": "2",
+    "Day": "Sun",
+    "Date": "2023-09-17",
+    "Time": "1:00PM",
+    "TeamNames1": "Kansas City Chiefs",
+    "TeamNames2": "Jacksonville Jaguars"
+  },
+  {
+    "Week": "2",
+    "Day": "Sun",
+    "Date": "2023-09-17",
+    "Time": "1:00PM",
+    "TeamNames1": "Las Vegas Raiders",
+    "TeamNames2": "Buffalo Bills"
+  },
+  {
+    "Week": "2",
+    "Day": "Sun",
+    "Date": "2023-09-17",
+    "Time": "1:00PM",
+    "TeamNames1": "Baltimore Ravens",
+    "TeamNames2": "Cincinnati Bengals"
+  },
+  {
+    "Week": "2",
+    "Day": "Sun",
+    "Date": "2023-09-17",
+    "Time": "1:00PM",
+    "TeamNames1": "Los Angeles Chargers",
+    "TeamNames2": "Tennessee Titans"
+  },
+  {
+    "Week": "2",
+    "Day": "Sun",
+    "Date": "2023-09-17",
+    "Time": "1:00PM",
+    "TeamNames1": "Seattle Seahawks",
+    "TeamNames2": "Detroit Lions"
+  },
+  {
+    "Week": "2",
+    "Day": "Sun",
+    "Date": "2023-09-17",
+    "Time": "4:05PM",
+    "TeamNames1": "New York Giants",
+    "TeamNames2": "Arizona Cardinals"
+  },
+  {
+    "Week": "2",
+    "Day": "Sun",
+    "Date": "2023-09-17",
+    "Time": "4:05PM",
+    "TeamNames1": "San Francisco 49ers",
+    "TeamNames2": "Los Angeles Rams"
+  },
+  {
+    "Week": "2",
+    "Day": "Sun",
+    "Date": "2023-09-17",
+    "Time": "4:25PM",
+    "TeamNames1": "New York Jets",
+    "TeamNames2": "Dallas Cowboys"
+  },
+  {
+    "Week": "2",
+    "Day": "Sun",
+    "Date": "2023-09-17",
+    "Time": "4:25PM",
+    "TeamNames1": "Washington Commanders",
+    "TeamNames2": "Denver Broncos"
+  },
+  {
+    "Week": "2",
+    "Day": "Sun",
+    "Date": "2023-09-17",
+    "Time": "8:20PM",
+    "TeamNames1": "Miami Dolphins",
+    "TeamNames2": "New England Patriots"
+  },
+  {
+    "Week": "2",
+    "Day": "Mon",
+    "Date": "2023-09-18",
+    "Time": "7:15PM",
+    "TeamNames1": "New Orleans Saints",
+    "TeamNames2": "Carolina Panthers"
+  },
+  {
+    "Week": "2",
+    "Day": "Mon",
+    "Date": "2023-09-18",
+    "Time": "8:15PM",
+    "TeamNames1": "Cleveland Browns",
+    "TeamNames2": "Pittsburgh Steelers"
+  },
+  {
+    "Week": "Week",
+    "Day": "Day",
+    "Date": "Date",
+    "Time": "Time",
+    "TeamNames1": "Visitor",
+    "TeamNames2": "Home"
+  },
+  {
+    "Week": "3",
+    "Day": "Thu",
+    "Date": "2023-09-21",
+    "Time": "8:15PM",
+    "TeamNames1": "New York Giants",
+    "TeamNames2": "San Francisco 49ers"
+  },
+  {
+    "Week": "3",
+    "Day": "Sun",
+    "Date": "2023-09-24",
+    "Time": "1:00PM",
+    "TeamNames1": "Atlanta Falcons",
+    "TeamNames2": "Detroit Lions"
+  },
+  {
+    "Week": "3",
+    "Day": "Sun",
+    "Date": "2023-09-24",
+    "Time": "1:00PM",
+    "TeamNames1": "Buffalo Bills",
+    "TeamNames2": "Washington Commanders"
+  },
+  {
+    "Week": "3",
+    "Day": "Sun",
+    "Date": "2023-09-24",
+    "Time": "1:00PM",
+    "TeamNames1": "Indianapolis Colts",
+    "TeamNames2": "Baltimore Ravens"
+  },
+  {
+    "Week": "3",
+    "Day": "Sun",
+    "Date": "2023-09-24",
+    "Time": "1:00PM",
+    "TeamNames1": "Denver Broncos",
+    "TeamNames2": "Miami Dolphins"
+  },
+  {
+    "Week": "3",
+    "Day": "Sun",
+    "Date": "2023-09-24",
+    "Time": "1:00PM",
+    "TeamNames1": "Houston Texans",
+    "TeamNames2": "Jacksonville Jaguars"
+  },
+  {
+    "Week": "3",
+    "Day": "Sun",
+    "Date": "2023-09-24",
+    "Time": "1:00PM",
+    "TeamNames1": "New Orleans Saints",
+    "TeamNames2": "Green Bay Packers"
+  },
+  {
+    "Week": "3",
+    "Day": "Sun",
+    "Date": "2023-09-24",
+    "Time": "1:00PM",
+    "TeamNames1": "New England Patriots",
+    "TeamNames2": "New York Jets"
+  },
+  {
+    "Week": "3",
+    "Day": "Sun",
+    "Date": "2023-09-24",
+    "Time": "1:00PM",
+    "TeamNames1": "Tennessee Titans",
+    "TeamNames2": "Cleveland Browns"
+  },
+  {
+    "Week": "3",
+    "Day": "Sun",
+    "Date": "2023-09-24",
+    "Time": "1:00PM",
+    "TeamNames1": "Los Angeles Chargers",
+    "TeamNames2": "Minnesota Vikings"
+  },
+  {
+    "Week": "3",
+    "Day": "Sun",
+    "Date": "2023-09-24",
+    "Time": "4:05PM",
+    "TeamNames1": "Carolina Panthers",
+    "TeamNames2": "Seattle Seahawks"
+  },
+  {
+    "Week": "3",
+    "Day": "Sun",
+    "Date": "2023-09-24",
+    "Time": "4:25PM",
+    "TeamNames1": "Chicago Bears",
+    "TeamNames2": "Kansas City Chiefs"
+  },
+  {
+    "Week": "3",
+    "Day": "Sun",
+    "Date": "2023-09-24",
+    "Time": "4:25PM",
+    "TeamNames1": "Dallas Cowboys",
+    "TeamNames2": "Arizona Cardinals"
+  },
+  {
+    "Week": "3",
+    "Day": "Sun",
+    "Date": "2023-09-24",
+    "Time": "8:20PM",
+    "TeamNames1": "Pittsburgh Steelers",
+    "TeamNames2": "Las Vegas Raiders"
+  },
+  {
+    "Week": "3",
+    "Day": "Mon",
+    "Date": "2023-09-25",
+    "Time": "7:15PM",
+    "TeamNames1": "Philadelphia Eagles",
+    "TeamNames2": "Tampa Bay Buccaneers"
+  },
+  {
+    "Week": "3",
+    "Day": "Mon",
+    "Date": "2023-09-25",
+    "Time": "8:15PM",
+    "TeamNames1": "Los Angeles Rams",
+    "TeamNames2": "Cincinnati Bengals"
+  },
+  {
+    "Week": "Week",
+    "Day": "Day",
+    "Date": "Date",
+    "Time": "Time",
+    "TeamNames1": "Visitor",
+    "TeamNames2": "Home"
+  },
+  {
+    "Week": "4",
+    "Day": "Thu",
+    "Date": "2023-09-28",
+    "Time": "8:15PM",
+    "TeamNames1": "Detroit Lions",
+    "TeamNames2": "Green Bay Packers"
+  },
+  {
+    "Week": "4",
+    "Day": "Sun",
+    "Date": "2023-10-01",
+    "Time": "9:30AM",
+    "TeamNames1": "Atlanta Falcons",
+    "TeamNames2": "Jacksonville Jaguars"
+  },
+  {
+    "Week": "4",
+    "Day": "Sun",
+    "Date": "2023-10-01",
+    "Time": "1:00PM",
+    "TeamNames1": "Cincinnati Bengals",
+    "TeamNames2": "Tennessee Titans"
+  },
+  {
+    "Week": "4",
+    "Day": "Sun",
+    "Date": "2023-10-01",
+    "Time": "1:00PM",
+    "TeamNames1": "Denver Broncos",
+    "TeamNames2": "Chicago Bears"
+  },
+  {
+    "Week": "4",
+    "Day": "Sun",
+    "Date": "2023-10-01",
+    "Time": "1:00PM",
+    "TeamNames1": "Miami Dolphins",
+    "TeamNames2": "Buffalo Bills"
+  },
+  {
+    "Week": "4",
+    "Day": "Sun",
+    "Date": "2023-10-01",
+    "Time": "1:00PM",
+    "TeamNames1": "Minnesota Vikings",
+    "TeamNames2": "Carolina Panthers"
+  },
+  {
+    "Week": "4",
+    "Day": "Sun",
+    "Date": "2023-10-01",
+    "Time": "1:00PM",
+    "TeamNames1": "Pittsburgh Steelers",
+    "TeamNames2": "Houston Texans"
+  },
+  {
+    "Week": "4",
+    "Day": "Sun",
+    "Date": "2023-10-01",
+    "Time": "1:00PM",
+    "TeamNames1": "Los Angeles Rams",
+    "TeamNames2": "Indianapolis Colts"
+  },
+  {
+    "Week": "4",
+    "Day": "Sun",
+    "Date": "2023-10-01",
+    "Time": "1:00PM",
+    "TeamNames1": "Baltimore Ravens",
+    "TeamNames2": "Cleveland Browns"
+  },
+  {
+    "Week": "4",
+    "Day": "Sun",
+    "Date": "2023-10-01",
+    "Time": "1:00PM",
+    "TeamNames1": "Tampa Bay Buccaneers",
+    "TeamNames2": "New Orleans Saints"
+  },
+  {
+    "Week": "4",
+    "Day": "Sun",
+    "Date": "2023-10-01",
+    "Time": "1:00PM",
+    "TeamNames1": "Washington Commanders",
+    "TeamNames2": "Philadelphia Eagles"
+  },
+  {
+    "Week": "4",
+    "Day": "Sun",
+    "Date": "2023-10-01",
+    "Time": "4:05PM",
+    "TeamNames1": "Las Vegas Raiders",
+    "TeamNames2": "Los Angeles Chargers"
+  },
+  {
+    "Week": "4",
+    "Day": "Sun",
+    "Date": "2023-10-01",
+    "Time": "4:25PM",
+    "TeamNames1": "Arizona Cardinals",
+    "TeamNames2": "San Francisco 49ers"
+  },
+  {
+    "Week": "4",
+    "Day": "Sun",
+    "Date": "2023-10-01",
+    "Time": "4:25PM",
+    "TeamNames1": "New England Patriots",
+    "TeamNames2": "Dallas Cowboys"
+  },
+  {
+    "Week": "4",
+    "Day": "Sun",
+    "Date": "2023-10-01",
+    "Time": "8:20PM",
+    "TeamNames1": "Kansas City Chiefs",
+    "TeamNames2": "New York Jets"
+  },
+  {
+    "Week": "4",
+    "Day": "Mon",
+    "Date": "2023-10-02",
+    "Time": "8:15PM",
+    "TeamNames1": "Seattle Seahawks",
+    "TeamNames2": "New York Giants"
+  },
+  {
+    "Week": "Week",
+    "Day": "Day",
+    "Date": "Date",
+    "Time": "Time",
+    "TeamNames1": "Visitor",
+    "TeamNames2": "Home"
+  },
+  {
+    "Week": "5",
+    "Day": "Thu",
+    "Date": "2023-10-05",
+    "Time": "8:15PM",
+    "TeamNames1": "Chicago Bears",
+    "TeamNames2": "Washington Commanders"
+  },
+  {
+    "Week": "5",
+    "Day": "Sun",
+    "Date": "2023-10-08",
+    "Time": "9:30AM",
+    "TeamNames1": "Jacksonville Jaguars",
+    "TeamNames2": "Buffalo Bills"
+  },
+  {
+    "Week": "5",
+    "Day": "Sun",
+    "Date": "2023-10-08",
+    "Time": "1:00PM",
+    "TeamNames1": "Carolina Panthers",
+    "TeamNames2": "Detroit Lions"
+  },
+  {
+    "Week": "5",
+    "Day": "Sun",
+    "Date": "2023-10-08",
+    "Time": "1:00PM",
+    "TeamNames1": "Houston Texans",
+    "TeamNames2": "Atlanta Falcons"
+  },
+  {
+    "Week": "5",
+    "Day": "Sun",
+    "Date": "2023-10-08",
+    "Time": "1:00PM",
+    "TeamNames1": "New Orleans Saints",
+    "TeamNames2": "New England Patriots"
+  },
+  {
+    "Week": "5",
+    "Day": "Sun",
+    "Date": "2023-10-08",
+    "Time": "1:00PM",
+    "TeamNames1": "New York Giants",
+    "TeamNames2": "Miami Dolphins"
+  },
+  {
+    "Week": "5",
+    "Day": "Sun",
+    "Date": "2023-10-08",
+    "Time": "1:00PM",
+    "TeamNames1": "Tennessee Titans",
+    "TeamNames2": "Indianapolis Colts"
+  },
+  {
+    "Week": "5",
+    "Day": "Sun",
+    "Date": "2023-10-08",
+    "Time": "1:00PM",
+    "TeamNames1": "Baltimore Ravens",
+    "TeamNames2": "Pittsburgh Steelers"
+  },
+  {
+    "Week": "5",
+    "Day": "Sun",
+    "Date": "2023-10-08",
+    "Time": "4:05PM",
+    "TeamNames1": "Cincinnati Bengals",
+    "TeamNames2": "Arizona Cardinals"
+  },
+  {
+    "Week": "5",
+    "Day": "Sun",
+    "Date": "2023-10-08",
+    "Time": "4:05PM",
+    "TeamNames1": "Philadelphia Eagles",
+    "TeamNames2": "Los Angeles Rams"
+  },
+  {
+    "Week": "5",
+    "Day": "Sun",
+    "Date": "2023-10-08",
+    "Time": "4:25PM",
+    "TeamNames1": "Kansas City Chiefs",
+    "TeamNames2": "Minnesota Vikings"
+  },
+  {
+    "Week": "5",
+    "Day": "Sun",
+    "Date": "2023-10-08",
+    "Time": "4:25PM",
+    "TeamNames1": "New York Jets",
+    "TeamNames2": "Denver Broncos"
+  },
+  {
+    "Week": "5",
+    "Day": "Sun",
+    "Date": "2023-10-08",
+    "Time": "8:20PM",
+    "TeamNames1": "Dallas Cowboys",
+    "TeamNames2": "San Francisco 49ers"
+  },
+  {
+    "Week": "5",
+    "Day": "Mon",
+    "Date": "2023-10-09",
+    "Time": "8:15PM",
+    "TeamNames1": "Green Bay Packers",
+    "TeamNames2": "Las Vegas Raiders"
+  },
+  {
+    "Week": "Week",
+    "Day": "Day",
+    "Date": "Date",
+    "Time": "Time",
+    "TeamNames1": "Visitor",
+    "TeamNames2": "Home"
+  },
+  {
+    "Week": "6",
+    "Day": "Thu",
+    "Date": "2023-10-12",
+    "Time": "8:15PM",
+    "TeamNames1": "Denver Broncos",
+    "TeamNames2": "Kansas City Chiefs"
+  },
+  {
+    "Week": "6",
+    "Day": "Sun",
+    "Date": "2023-10-15",
+    "Time": "9:30AM",
+    "TeamNames1": "Baltimore Ravens",
+    "TeamNames2": "Tennessee Titans"
+  },
+  {
+    "Week": "6",
+    "Day": "Sun",
+    "Date": "2023-10-15",
+    "Time": "1:00PM",
+    "TeamNames1": "Carolina Panthers",
+    "TeamNames2": "Miami Dolphins"
+  },
+  {
+    "Week": "6",
+    "Day": "Sun",
+    "Date": "2023-10-15",
+    "Time": "1:00PM",
+    "TeamNames1": "Indianapolis Colts",
+    "TeamNames2": "Jacksonville Jaguars"
+  },
+  {
+    "Week": "6",
+    "Day": "Sun",
+    "Date": "2023-10-15",
+    "Time": "1:00PM",
+    "TeamNames1": "Detroit Lions",
+    "TeamNames2": "Tampa Bay Buccaneers"
+  },
+  {
+    "Week": "6",
+    "Day": "Sun",
+    "Date": "2023-10-15",
+    "Time": "1:00PM",
+    "TeamNames1": "Minnesota Vikings",
+    "TeamNames2": "Chicago Bears"
+  },
+  {
+    "Week": "6",
+    "Day": "Sun",
+    "Date": "2023-10-15",
+    "Time": "1:00PM",
+    "TeamNames1": "New Orleans Saints",
+    "TeamNames2": "Houston Texans"
+  },
+  {
+    "Week": "6",
+    "Day": "Sun",
+    "Date": "2023-10-15",
+    "Time": "1:00PM",
+    "TeamNames1": "Seattle Seahawks",
+    "TeamNames2": "Cincinnati Bengals"
+  },
+  {
+    "Week": "6",
+    "Day": "Sun",
+    "Date": "2023-10-15",
+    "Time": "1:00PM",
+    "TeamNames1": "San Francisco 49ers",
+    "TeamNames2": "Cleveland Browns"
+  },
+  {
+    "Week": "6",
+    "Day": "Sun",
+    "Date": "2023-10-15",
+    "Time": "1:00PM",
+    "TeamNames1": "Washington Commanders",
+    "TeamNames2": "Atlanta Falcons"
+  },
+  {
+    "Week": "6",
+    "Day": "Sun",
+    "Date": "2023-10-15",
+    "Time": "4:05PM",
+    "TeamNames1": "New England Patriots",
+    "TeamNames2": "Las Vegas Raiders"
+  },
+  {
+    "Week": "6",
+    "Day": "Sun",
+    "Date": "2023-10-15",
+    "Time": "4:25PM",
+    "TeamNames1": "Arizona Cardinals",
+    "TeamNames2": "Los Angeles Rams"
+  },
+  {
+    "Week": "6",
+    "Day": "Sun",
+    "Date": "2023-10-15",
+    "Time": "4:25PM",
+    "TeamNames1": "Philadelphia Eagles",
+    "TeamNames2": "New York Jets"
+  },
+  {
+    "Week": "6",
+    "Day": "Sun",
+    "Date": "2023-10-15",
+    "Time": "8:20PM",
+    "TeamNames1": "New York Giants",
+    "TeamNames2": "Buffalo Bills"
+  },
+  {
+    "Week": "6",
+    "Day": "Mon",
+    "Date": "2023-10-16",
+    "Time": "8:15PM",
+    "TeamNames1": "Dallas Cowboys",
+    "TeamNames2": "Los Angeles Chargers"
+  },
+  {
+    "Week": "Week",
+    "Day": "Day",
+    "Date": "Date",
+    "Time": "Time",
+    "TeamNames1": "Visitor",
+    "TeamNames2": "Home"
+  },
+  {
+    "Week": "7",
+    "Day": "Thu",
+    "Date": "2023-10-19",
+    "Time": "8:15PM",
+    "TeamNames1": "Jacksonville Jaguars",
+    "TeamNames2": "New Orleans Saints"
+  },
+  {
+    "Week": "7",
+    "Day": "Sun",
+    "Date": "2023-10-22",
+    "Time": "1:00PM",
+    "TeamNames1": "Atlanta Falcons",
+    "TeamNames2": "Tampa Bay Buccaneers"
+  },
+  {
+    "Week": "7",
+    "Day": "Sun",
+    "Date": "2023-10-22",
+    "Time": "1:00PM",
+    "TeamNames1": "Buffalo Bills",
+    "TeamNames2": "New England Patriots"
+  },
+  {
+    "Week": "7",
+    "Day": "Sun",
+    "Date": "2023-10-22",
+    "Time": "1:00PM",
+    "TeamNames1": "Cleveland Browns",
+    "TeamNames2": "Indianapolis Colts"
+  },
+  {
+    "Week": "7",
+    "Day": "Sun",
+    "Date": "2023-10-22",
+    "Time": "1:00PM",
+    "TeamNames1": "Detroit Lions",
+    "TeamNames2": "Baltimore Ravens"
+  },
+  {
+    "Week": "7",
+    "Day": "Sun",
+    "Date": "2023-10-22",
+    "Time": "1:00PM",
+    "TeamNames1": "Las Vegas Raiders",
+    "TeamNames2": "Chicago Bears"
+  },
+  {
+    "Week": "7",
+    "Day": "Sun",
+    "Date": "2023-10-22",
+    "Time": "1:00PM",
+    "TeamNames1": "Washington Commanders",
+    "TeamNames2": "New York Giants"
+  },
+  {
+    "Week": "7",
+    "Day": "Sun",
+    "Date": "2023-10-22",
+    "Time": "4:05PM",
+    "TeamNames1": "Arizona Cardinals",
+    "TeamNames2": "Seattle Seahawks"
+  },
+  {
+    "Week": "7",
+    "Day": "Sun",
+    "Date": "2023-10-22",
+    "Time": "4:05PM",
+    "TeamNames1": "Pittsburgh Steelers",
+    "TeamNames2": "Los Angeles Rams"
+  },
+  {
+    "Week": "7",
+    "Day": "Sun",
+    "Date": "2023-10-22",
+    "Time": "4:25PM",
+    "TeamNames1": "Green Bay Packers",
+    "TeamNames2": "Denver Broncos"
+  },
+  {
+    "Week": "7",
+    "Day": "Sun",
+    "Date": "2023-10-22",
+    "Time": "4:25PM",
+    "TeamNames1": "Los Angeles Chargers",
+    "TeamNames2": "Kansas City Chiefs"
+  },
+  {
+    "Week": "7",
+    "Day": "Sun",
+    "Date": "2023-10-22",
+    "Time": "8:20PM",
+    "TeamNames1": "Miami Dolphins",
+    "TeamNames2": "Philadelphia Eagles"
+  },
+  {
+    "Week": "7",
+    "Day": "Mon",
+    "Date": "2023-10-23",
+    "Time": "8:15PM",
+    "TeamNames1": "San Francisco 49ers",
+    "TeamNames2": "Minnesota Vikings"
+  },
+  {
+    "Week": "Week",
+    "Day": "Day",
+    "Date": "Date",
+    "Time": "Time",
+    "TeamNames1": "Visitor",
+    "TeamNames2": "Home"
+  },
+  {
+    "Week": "8",
+    "Day": "Thu",
+    "Date": "2023-10-26",
+    "Time": "8:15PM",
+    "TeamNames1": "Tampa Bay Buccaneers",
+    "TeamNames2": "Buffalo Bills"
+  },
+  {
+    "Week": "8",
+    "Day": "Sun",
+    "Date": "2023-10-29",
+    "Time": "1:00PM",
+    "TeamNames1": "Atlanta Falcons",
+    "TeamNames2": "Tennessee Titans"
+  },
+  {
+    "Week": "8",
+    "Day": "Sun",
+    "Date": "2023-10-29",
+    "Time": "1:00PM",
+    "TeamNames1": "Houston Texans",
+    "TeamNames2": "Carolina Panthers"
+  },
+  {
+    "Week": "8",
+    "Day": "Sun",
+    "Date": "2023-10-29",
+    "Time": "1:00PM",
+    "TeamNames1": "Jacksonville Jaguars",
+    "TeamNames2": "Pittsburgh Steelers"
+  },
+  {
+    "Week": "8",
+    "Day": "Sun",
+    "Date": "2023-10-29",
+    "Time": "1:00PM",
+    "TeamNames1": "Minnesota Vikings",
+    "TeamNames2": "Green Bay Packers"
+  },
+  {
+    "Week": "8",
+    "Day": "Sun",
+    "Date": "2023-10-29",
+    "Time": "1:00PM",
+    "TeamNames1": "New Orleans Saints",
+    "TeamNames2": "Indianapolis Colts"
+  },
+  {
+    "Week": "8",
+    "Day": "Sun",
+    "Date": "2023-10-29",
+    "Time": "1:00PM",
+    "TeamNames1": "New England Patriots",
+    "TeamNames2": "Miami Dolphins"
+  },
+  {
+    "Week": "8",
+    "Day": "Sun",
+    "Date": "2023-10-29",
+    "Time": "1:00PM",
+    "TeamNames1": "New York Jets",
+    "TeamNames2": "New York Giants"
+  },
+  {
+    "Week": "8",
+    "Day": "Sun",
+    "Date": "2023-10-29",
+    "Time": "1:00PM",
+    "TeamNames1": "Philadelphia Eagles",
+    "TeamNames2": "Washington Commanders"
+  },
+  {
+    "Week": "8",
+    "Day": "Sun",
+    "Date": "2023-10-29",
+    "Time": "1:00PM",
+    "TeamNames1": "Los Angeles Rams",
+    "TeamNames2": "Dallas Cowboys"
+  },
+  {
+    "Week": "8",
+    "Day": "Sun",
+    "Date": "2023-10-29",
+    "Time": "4:05PM",
+    "TeamNames1": "Cleveland Browns",
+    "TeamNames2": "Seattle Seahawks"
+  },
+  {
+    "Week": "8",
+    "Day": "Sun",
+    "Date": "2023-10-29",
+    "Time": "4:25PM",
+    "TeamNames1": "Cincinnati Bengals",
+    "TeamNames2": "San Francisco 49ers"
+  },
+  {
+    "Week": "8",
+    "Day": "Sun",
+    "Date": "2023-10-29",
+    "Time": "4:25PM",
+    "TeamNames1": "Kansas City Chiefs",
+    "TeamNames2": "Denver Broncos"
+  },
+  {
+    "Week": "8",
+    "Day": "Sun",
+    "Date": "2023-10-29",
+    "Time": "4:25PM",
+    "TeamNames1": "Baltimore Ravens",
+    "TeamNames2": "Arizona Cardinals"
+  },
+  {
+    "Week": "8",
+    "Day": "Sun",
+    "Date": "2023-10-29",
+    "Time": "8:20PM",
+    "TeamNames1": "Chicago Bears",
+    "TeamNames2": "Los Angeles Chargers"
+  },
+  {
+    "Week": "8",
+    "Day": "Mon",
+    "Date": "2023-10-30",
+    "Time": "8:15PM",
+    "TeamNames1": "Las Vegas Raiders",
+    "TeamNames2": "Detroit Lions"
+  },
+  {
+    "Week": "Week",
+    "Day": "Day",
+    "Date": "Date",
+    "Time": "Time",
+    "TeamNames1": "Visitor",
+    "TeamNames2": "Home"
+  },
+  {
+    "Week": "9",
+    "Day": "Thu",
+    "Date": "2023-11-02",
+    "Time": "8:15PM",
+    "TeamNames1": "Tennessee Titans",
+    "TeamNames2": "Pittsburgh Steelers"
+  },
+  {
+    "Week": "9",
+    "Day": "Sun",
+    "Date": "2023-11-05",
+    "Time": "9:30AM",
+    "TeamNames1": "Miami Dolphins",
+    "TeamNames2": "Kansas City Chiefs"
+  },
+  {
+    "Week": "9",
+    "Day": "Sun",
+    "Date": "2023-11-05",
+    "Time": "1:00PM",
+    "TeamNames1": "Chicago Bears",
+    "TeamNames2": "New Orleans Saints"
+  },
+  {
+    "Week": "9",
+    "Day": "Sun",
+    "Date": "2023-11-05",
+    "Time": "1:00PM",
+    "TeamNames1": "Arizona Cardinals",
+    "TeamNames2": "Cleveland Browns"
+  },
+  {
+    "Week": "9",
+    "Day": "Sun",
+    "Date": "2023-11-05",
+    "Time": "1:00PM",
+    "TeamNames1": "Minnesota Vikings",
+    "TeamNames2": "Atlanta Falcons"
+  },
+  {
+    "Week": "9",
+    "Day": "Sun",
+    "Date": "2023-11-05",
+    "Time": "1:00PM",
+    "TeamNames1": "Los Angeles Rams",
+    "TeamNames2": "Green Bay Packers"
+  },
+  {
+    "Week": "9",
+    "Day": "Sun",
+    "Date": "2023-11-05",
+    "Time": "1:00PM",
+    "TeamNames1": "Seattle Seahawks",
+    "TeamNames2": "Baltimore Ravens"
+  },
+  {
+    "Week": "9",
+    "Day": "Sun",
+    "Date": "2023-11-05",
+    "Time": "1:00PM",
+    "TeamNames1": "Tampa Bay Buccaneers",
+    "TeamNames2": "Houston Texans"
+  },
+  {
+    "Week": "9",
+    "Day": "Sun",
+    "Date": "2023-11-05",
+    "Time": "1:00PM",
+    "TeamNames1": "Washington Commanders",
+    "TeamNames2": "New England Patriots"
+  },
+  {
+    "Week": "9",
+    "Day": "Sun",
+    "Date": "2023-11-05",
+    "Time": "4:05PM",
+    "TeamNames1": "Indianapolis Colts",
+    "TeamNames2": "Carolina Panthers"
+  },
+  {
+    "Week": "9",
+    "Day": "Sun",
+    "Date": "2023-11-05",
+    "Time": "4:25PM",
+    "TeamNames1": "Dallas Cowboys",
+    "TeamNames2": "Philadelphia Eagles"
+  },
+  {
+    "Week": "9",
+    "Day": "Sun",
+    "Date": "2023-11-05",
+    "Time": "4:25PM",
+    "TeamNames1": "New York Giants",
+    "TeamNames2": "Las Vegas Raiders"
+  },
+  {
+    "Week": "9",
+    "Day": "Sun",
+    "Date": "2023-11-05",
+    "Time": "8:20PM",
+    "TeamNames1": "Buffalo Bills",
+    "TeamNames2": "Cincinnati Bengals"
+  },
+  {
+    "Week": "9",
+    "Day": "Mon",
+    "Date": "2023-11-06",
+    "Time": "8:15PM",
+    "TeamNames1": "Los Angeles Chargers",
+    "TeamNames2": "New York Jets"
+  },
+  {
+    "Week": "Week",
+    "Day": "Day",
+    "Date": "Date",
+    "Time": "Time",
+    "TeamNames1": "Visitor",
+    "TeamNames2": "Home"
+  },
+  {
+    "Week": "10",
+    "Day": "Thu",
+    "Date": "2023-11-09",
+    "Time": "8:15PM",
+    "TeamNames1": "Carolina Panthers",
+    "TeamNames2": "Chicago Bears"
+  },
+  {
+    "Week": "10",
+    "Day": "Sun",
+    "Date": "2023-11-12",
+    "Time": "9:30AM",
+    "TeamNames1": "Indianapolis Colts",
+    "TeamNames2": "New England Patriots"
+  },
+  {
+    "Week": "10",
+    "Day": "Sun",
+    "Date": "2023-11-12",
+    "Time": "1:00PM",
+    "TeamNames1": "Cleveland Browns",
+    "TeamNames2": "Baltimore Ravens"
+  },
+  {
+    "Week": "10",
+    "Day": "Sun",
+    "Date": "2023-11-12",
+    "Time": "1:00PM",
+    "TeamNames1": "Green Bay Packers",
+    "TeamNames2": "Pittsburgh Steelers"
+  },
+  {
+    "Week": "10",
+    "Day": "Sun",
+    "Date": "2023-11-12",
+    "Time": "1:00PM",
+    "TeamNames1": "Houston Texans",
+    "TeamNames2": "Cincinnati Bengals"
+  },
+  {
+    "Week": "10",
+    "Day": "Sun",
+    "Date": "2023-11-12",
+    "Time": "1:00PM",
+    "TeamNames1": "New Orleans Saints",
+    "TeamNames2": "Minnesota Vikings"
+  },
+  {
+    "Week": "10",
+    "Day": "Sun",
+    "Date": "2023-11-12",
+    "Time": "1:00PM",
+    "TeamNames1": "Tennessee Titans",
+    "TeamNames2": "Tampa Bay Buccaneers"
+  },
+  {
+    "Week": "10",
+    "Day": "Sun",
+    "Date": "2023-11-12",
+    "Time": "1:00PM",
+    "TeamNames1": "San Francisco 49ers",
+    "TeamNames2": "Jacksonville Jaguars"
+  },
+  {
+    "Week": "10",
+    "Day": "Sun",
+    "Date": "2023-11-12",
+    "Time": "4:05PM",
+    "TeamNames1": "Atlanta Falcons",
+    "TeamNames2": "Arizona Cardinals"
+  },
+  {
+    "Week": "10",
+    "Day": "Sun",
+    "Date": "2023-11-12",
+    "Time": "4:05PM",
+    "TeamNames1": "Detroit Lions",
+    "TeamNames2": "Los Angeles Chargers"
+  },
+  {
+    "Week": "10",
+    "Day": "Sun",
+    "Date": "2023-11-12",
+    "Time": "4:25PM",
+    "TeamNames1": "New York Giants",
+    "TeamNames2": "Dallas Cowboys"
+  },
+  {
+    "Week": "10",
+    "Day": "Sun",
+    "Date": "2023-11-12",
+    "Time": "4:25PM",
+    "TeamNames1": "Washington Commanders",
+    "TeamNames2": "Seattle Seahawks"
+  },
+  {
+    "Week": "10",
+    "Day": "Sun",
+    "Date": "2023-11-12",
+    "Time": "8:20PM",
+    "TeamNames1": "New York Jets",
+    "TeamNames2": "Las Vegas Raiders"
+  },
+  {
+    "Week": "10",
+    "Day": "Mon",
+    "Date": "2023-11-13",
+    "Time": "8:15PM",
+    "TeamNames1": "Denver Broncos",
+    "TeamNames2": "Buffalo Bills"
+  },
+  {
+    "Week": "Week",
+    "Day": "Day",
+    "Date": "Date",
+    "Time": "Time",
+    "TeamNames1": "Visitor",
+    "TeamNames2": "Home"
+  },
+  {
+    "Week": "11",
+    "Day": "Thu",
+    "Date": "2023-11-16",
+    "Time": "8:15PM",
+    "TeamNames1": "Cincinnati Bengals",
+    "TeamNames2": "Baltimore Ravens"
+  },
+  {
+    "Week": "11",
+    "Day": "Sun",
+    "Date": "2023-11-19",
+    "Time": "1:00PM",
+    "TeamNames1": "Chicago Bears",
+    "TeamNames2": "Detroit Lions"
+  },
+  {
+    "Week": "11",
+    "Day": "Sun",
+    "Date": "2023-11-19",
+    "Time": "1:00PM",
+    "TeamNames1": "Arizona Cardinals",
+    "TeamNames2": "Houston Texans"
+  },
+  {
+    "Week": "11",
+    "Day": "Sun",
+    "Date": "2023-11-19",
+    "Time": "1:00PM",
+    "TeamNames1": "Dallas Cowboys",
+    "TeamNames2": "Carolina Panthers"
+  },
+  {
+    "Week": "11",
+    "Day": "Sun",
+    "Date": "2023-11-19",
+    "Time": "1:00PM",
+    "TeamNames1": "New York Giants",
+    "TeamNames2": "Washington Commanders"
+  },
+  {
+    "Week": "11",
+    "Day": "Sun",
+    "Date": "2023-11-19",
+    "Time": "1:00PM",
+    "TeamNames1": "Tennessee Titans",
+    "TeamNames2": "Jacksonville Jaguars"
+  },
+  {
+    "Week": "11",
+    "Day": "Sun",
+    "Date": "2023-11-19",
+    "Time": "1:00PM",
+    "TeamNames1": "Pittsburgh Steelers",
+    "TeamNames2": "Cleveland Browns"
+  },
+  {
+    "Week": "11",
+    "Day": "Sun",
+    "Date": "2023-11-19",
+    "Time": "1:00PM",
+    "TeamNames1": "Las Vegas Raiders",
+    "TeamNames2": "Miami Dolphins"
+  },
+  {
+    "Week": "11",
+    "Day": "Sun",
+    "Date": "2023-11-19",
+    "Time": "1:00PM",
+    "TeamNames1": "Los Angeles Chargers",
+    "TeamNames2": "Green Bay Packers"
+  },
+  {
+    "Week": "11",
+    "Day": "Sun",
+    "Date": "2023-11-19",
+    "Time": "4:05PM",
+    "TeamNames1": "Tampa Bay Buccaneers",
+    "TeamNames2": "San Francisco 49ers"
+  },
+  {
+    "Week": "11",
+    "Day": "Sun",
+    "Date": "2023-11-19",
+    "Time": "4:25PM",
+    "TeamNames1": "New York Jets",
+    "TeamNames2": "Buffalo Bills"
+  },
+  {
+    "Week": "11",
+    "Day": "Sun",
+    "Date": "2023-11-19",
+    "Time": "4:25PM",
+    "TeamNames1": "Seattle Seahawks",
+    "TeamNames2": "Los Angeles Rams"
+  },
+  {
+    "Week": "11",
+    "Day": "Sun",
+    "Date": "2023-11-19",
+    "Time": "8:20PM",
+    "TeamNames1": "Minnesota Vikings",
+    "TeamNames2": "Denver Broncos"
+  },
+  {
+    "Week": "11",
+    "Day": "Mon",
+    "Date": "2023-11-20",
+    "Time": "8:15PM",
+    "TeamNames1": "Philadelphia Eagles",
+    "TeamNames2": "Kansas City Chiefs"
+  },
+  {
+    "Week": "Week",
+    "Day": "Day",
+    "Date": "Date",
+    "Time": "Time",
+    "TeamNames1": "Visitor",
+    "TeamNames2": "Home"
+  },
+  {
+    "Week": "12",
+    "Day": "Thu",
+    "Date": "2023-11-23",
+    "Time": "12:30PM",
+    "TeamNames1": "Green Bay Packers",
+    "TeamNames2": "Detroit Lions"
+  },
+  {
+    "Week": "12",
+    "Day": "Thu",
+    "Date": "2023-11-23",
+    "Time": "4:30PM",
+    "TeamNames1": "Washington Commanders",
+    "TeamNames2": "Dallas Cowboys"
+  },
+  {
+    "Week": "12",
+    "Day": "Thu",
+    "Date": "2023-11-23",
+    "Time": "8:20PM",
+    "TeamNames1": "San Francisco 49ers",
+    "TeamNames2": "Seattle Seahawks"
+  },
+  {
+    "Week": "12",
+    "Day": "Fri",
+    "Date": "2023-11-24",
+    "Time": "3:00PM",
+    "TeamNames1": "Miami Dolphins",
+    "TeamNames2": "New York Jets"
+  },
+  {
+    "Week": "12",
+    "Day": "Sun",
+    "Date": "2023-11-26",
+    "Time": "1:00PM",
+    "TeamNames1": "Carolina Panthers",
+    "TeamNames2": "Tennessee Titans"
+  },
+  {
+    "Week": "12",
+    "Day": "Sun",
+    "Date": "2023-11-26",
+    "Time": "1:00PM",
+    "TeamNames1": "Jacksonville Jaguars",
+    "TeamNames2": "Houston Texans"
+  },
+  {
+    "Week": "12",
+    "Day": "Sun",
+    "Date": "2023-11-26",
+    "Time": "1:00PM",
+    "TeamNames1": "New Orleans Saints",
+    "TeamNames2": "Atlanta Falcons"
+  },
+  {
+    "Week": "12",
+    "Day": "Sun",
+    "Date": "2023-11-26",
+    "Time": "1:00PM",
+    "TeamNames1": "New England Patriots",
+    "TeamNames2": "New York Giants"
+  },
+  {
+    "Week": "12",
+    "Day": "Sun",
+    "Date": "2023-11-26",
+    "Time": "1:00PM",
+    "TeamNames1": "Pittsburgh Steelers",
+    "TeamNames2": "Cincinnati Bengals"
+  },
+  {
+    "Week": "12",
+    "Day": "Sun",
+    "Date": "2023-11-26",
+    "Time": "1:00PM",
+    "TeamNames1": "Tampa Bay Buccaneers",
+    "TeamNames2": "Indianapolis Colts"
+  },
+  {
+    "Week": "12",
+    "Day": "Sun",
+    "Date": "2023-11-26",
+    "Time": "4:05PM",
+    "TeamNames1": "Cleveland Browns",
+    "TeamNames2": "Denver Broncos"
+  },
+  {
+    "Week": "12",
+    "Day": "Sun",
+    "Date": "2023-11-26",
+    "Time": "4:05PM",
+    "TeamNames1": "Los Angeles Rams",
+    "TeamNames2": "Arizona Cardinals"
+  },
+  {
+    "Week": "12",
+    "Day": "Sun",
+    "Date": "2023-11-26",
+    "Time": "4:25PM",
+    "TeamNames1": "Buffalo Bills",
+    "TeamNames2": "Philadelphia Eagles"
+  },
+  {
+    "Week": "12",
+    "Day": "Sun",
+    "Date": "2023-11-26",
+    "Time": "4:25PM",
+    "TeamNames1": "Kansas City Chiefs",
+    "TeamNames2": "Las Vegas Raiders"
+  },
+  {
+    "Week": "12",
+    "Day": "Sun",
+    "Date": "2023-11-26",
+    "Time": "8:20PM",
+    "TeamNames1": "Baltimore Ravens",
+    "TeamNames2": "Los Angeles Chargers"
+  },
+  {
+    "Week": "12",
+    "Day": "Mon",
+    "Date": "2023-11-27",
+    "Time": "8:15PM",
+    "TeamNames1": "Chicago Bears",
+    "TeamNames2": "Minnesota Vikings"
+  },
+  {
+    "Week": "Week",
+    "Day": "Day",
+    "Date": "Date",
+    "Time": "Time",
+    "TeamNames1": "Visitor",
+    "TeamNames2": "Home"
+  },
+  {
+    "Week": "13",
+    "Day": "Thu",
+    "Date": "2023-11-30",
+    "Time": "8:15PM",
+    "TeamNames1": "Seattle Seahawks",
+    "TeamNames2": "Dallas Cowboys"
+  },
+  {
+    "Week": "13",
+    "Day": "Sun",
+    "Date": "2023-12-03",
+    "Time": "1:00PM",
+    "TeamNames1": "Atlanta Falcons",
+    "TeamNames2": "New York Jets"
+  },
+  {
+    "Week": "13",
+    "Day": "Sun",
+    "Date": "2023-12-03",
+    "Time": "1:00PM",
+    "TeamNames1": "Carolina Panthers",
+    "TeamNames2": "Tampa Bay Buccaneers"
+  },
+  {
+    "Week": "13",
+    "Day": "Sun",
+    "Date": "2023-12-03",
+    "Time": "1:00PM",
+    "TeamNames1": "Indianapolis Colts",
+    "TeamNames2": "Tennessee Titans"
+  },
+  {
+    "Week": "13",
+    "Day": "Sun",
+    "Date": "2023-12-03",
+    "Time": "1:00PM",
+    "TeamNames1": "Arizona Cardinals",
+    "TeamNames2": "Pittsburgh Steelers"
+  },
+  {
+    "Week": "13",
+    "Day": "Sun",
+    "Date": "2023-12-03",
+    "Time": "1:00PM",
+    "TeamNames1": "Detroit Lions",
+    "TeamNames2": "New Orleans Saints"
+  },
+  {
+    "Week": "13",
+    "Day": "Sun",
+    "Date": "2023-12-03",
+    "Time": "1:00PM",
+    "TeamNames1": "Miami Dolphins",
+    "TeamNames2": "Washington Commanders"
+  },
+  {
+    "Week": "13",
+    "Day": "Sun",
+    "Date": "2023-12-03",
+    "Time": "1:00PM",
+    "TeamNames1": "Los Angeles Chargers",
+    "TeamNames2": "New England Patriots"
+  },
+  {
+    "Week": "13",
+    "Day": "Sun",
+    "Date": "2023-12-03",
+    "Time": "4:05PM",
+    "TeamNames1": "Denver Broncos",
+    "TeamNames2": "Houston Texans"
+  },
+  {
+    "Week": "13",
+    "Day": "Sun",
+    "Date": "2023-12-03",
+    "Time": "4:25PM",
+    "TeamNames1": "Cleveland Browns",
+    "TeamNames2": "Los Angeles Rams"
+  },
+  {
+    "Week": "13",
+    "Day": "Sun",
+    "Date": "2023-12-03",
+    "Time": "4:25PM",
+    "TeamNames1": "San Francisco 49ers",
+    "TeamNames2": "Philadelphia Eagles"
+  },
+  {
+    "Week": "13",
+    "Day": "Sun",
+    "Date": "2023-12-03",
+    "Time": "8:20PM",
+    "TeamNames1": "Kansas City Chiefs",
+    "TeamNames2": "Green Bay Packers"
+  },
+  {
+    "Week": "13",
+    "Day": "Mon",
+    "Date": "2023-12-04",
+    "Time": "8:15PM",
+    "TeamNames1": "Cincinnati Bengals",
+    "TeamNames2": "Jacksonville Jaguars"
+  },
+  {
+    "Week": "Week",
+    "Day": "Day",
+    "Date": "Date",
+    "Time": "Time",
+    "TeamNames1": "Visitor",
+    "TeamNames2": "Home"
+  },
+  {
+    "Week": "14",
+    "Day": "Thu",
+    "Date": "2023-12-07",
+    "Time": "8:15PM",
+    "TeamNames1": "New England Patriots",
+    "TeamNames2": "Pittsburgh Steelers"
+  },
+  {
+    "Week": "14",
+    "Day": "Sun",
+    "Date": "2023-12-10",
+    "Time": "1:00PM",
+    "TeamNames1": "Carolina Panthers",
+    "TeamNames2": "New Orleans Saints"
+  },
+  {
+    "Week": "14",
+    "Day": "Sun",
+    "Date": "2023-12-10",
+    "Time": "1:00PM",
+    "TeamNames1": "Indianapolis Colts",
+    "TeamNames2": "Cincinnati Bengals"
+  },
+  {
+    "Week": "14",
+    "Day": "Sun",
+    "Date": "2023-12-10",
+    "Time": "1:00PM",
+    "TeamNames1": "Detroit Lions",
+    "TeamNames2": "Chicago Bears"
+  },
+  {
+    "Week": "14",
+    "Day": "Sun",
+    "Date": "2023-12-10",
+    "Time": "1:00PM",
+    "TeamNames1": "Houston Texans",
+    "TeamNames2": "New York Jets"
+  },
+  {
+    "Week": "14",
+    "Day": "Sun",
+    "Date": "2023-12-10",
+    "Time": "1:00PM",
+    "TeamNames1": "Jacksonville Jaguars",
+    "TeamNames2": "Cleveland Browns"
+  },
+  {
+    "Week": "14",
+    "Day": "Sun",
+    "Date": "2023-12-10",
+    "Time": "1:00PM",
+    "TeamNames1": "Los Angeles Rams",
+    "TeamNames2": "Baltimore Ravens"
+  },
+  {
+    "Week": "14",
+    "Day": "Sun",
+    "Date": "2023-12-10",
+    "Time": "1:00PM",
+    "TeamNames1": "Tampa Bay Buccaneers",
+    "TeamNames2": "Atlanta Falcons"
+  },
+  {
+    "Week": "14",
+    "Day": "Sun",
+    "Date": "2023-12-10",
+    "Time": "4:05PM",
+    "TeamNames1": "Minnesota Vikings",
+    "TeamNames2": "Las Vegas Raiders"
+  },
+  {
+    "Week": "14",
+    "Day": "Sun",
+    "Date": "2023-12-10",
+    "Time": "4:05PM",
+    "TeamNames1": "Seattle Seahawks",
+    "TeamNames2": "San Francisco 49ers"
+  },
+  {
+    "Week": "14",
+    "Day": "Sun",
+    "Date": "2023-12-10",
+    "Time": "4:25PM",
+    "TeamNames1": "Buffalo Bills",
+    "TeamNames2": "Kansas City Chiefs"
+  },
+  {
+    "Week": "14",
+    "Day": "Sun",
+    "Date": "2023-12-10",
+    "Time": "4:25PM",
+    "TeamNames1": "Denver Broncos",
+    "TeamNames2": "Los Angeles Chargers"
+  },
+  {
+    "Week": "14",
+    "Day": "Sun",
+    "Date": "2023-12-10",
+    "Time": "8:20PM",
+    "TeamNames1": "Philadelphia Eagles",
+    "TeamNames2": "Dallas Cowboys"
+  },
+  {
+    "Week": "14",
+    "Day": "Mon",
+    "Date": "2023-12-11",
+    "Time": "8:15PM",
+    "TeamNames1": "Green Bay Packers",
+    "TeamNames2": "New York Giants"
+  },
+  {
+    "Week": "14",
+    "Day": "Mon",
+    "Date": "2023-12-11",
+    "Time": "8:15PM",
+    "TeamNames1": "Tennessee Titans",
+    "TeamNames2": "Miami Dolphins"
+  },
+  {
+    "Week": "Week",
+    "Day": "Day",
+    "Date": "Date",
+    "Time": "Time",
+    "TeamNames1": "Visitor",
+    "TeamNames2": "Home"
+  },
+  {
+    "Week": "15",
+    "Day": "Thu",
+    "Date": "2023-12-14",
+    "Time": "8:15PM",
+    "TeamNames1": "Los Angeles Chargers",
+    "TeamNames2": "Las Vegas Raiders"
+  },
+  {
+    "Week": "15",
+    "Day": "Sun",
+    "Date": "2023-12-17",
+    "Time": "1:00PM",
+    "TeamNames1": "Atlanta Falcons",
+    "TeamNames2": "Carolina Panthers"
+  },
+  {
+    "Week": "15",
+    "Day": "Sun",
+    "Date": "2023-12-17",
+    "Time": "1:00PM",
+    "TeamNames1": "Chicago Bears",
+    "TeamNames2": "Cleveland Browns"
+  },
+  {
+    "Week": "15",
+    "Day": "Sun",
+    "Date": "2023-12-17",
+    "Time": "1:00PM",
+    "TeamNames1": "Denver Broncos",
+    "TeamNames2": "Detroit Lions"
+  },
+  {
+    "Week": "15",
+    "Day": "Sun",
+    "Date": "2023-12-17",
+    "Time": "1:00PM",
+    "TeamNames1": "Houston Texans",
+    "TeamNames2": "Tennessee Titans"
+  },
+  {
+    "Week": "15",
+    "Day": "Sun",
+    "Date": "2023-12-17",
+    "Time": "1:00PM",
+    "TeamNames1": "Minnesota Vikings",
+    "TeamNames2": "Cincinnati Bengals"
+  },
+  {
+    "Week": "15",
+    "Day": "Sun",
+    "Date": "2023-12-17",
+    "Time": "1:00PM",
+    "TeamNames1": "New York Giants",
+    "TeamNames2": "New Orleans Saints"
+  },
+  {
+    "Week": "15",
+    "Day": "Sun",
+    "Date": "2023-12-17",
+    "Time": "1:00PM",
+    "TeamNames1": "New York Jets",
+    "TeamNames2": "Miami Dolphins"
+  },
+  {
+    "Week": "15",
+    "Day": "Sun",
+    "Date": "2023-12-17",
+    "Time": "1:00PM",
+    "TeamNames1": "Pittsburgh Steelers",
+    "TeamNames2": "Indianapolis Colts"
+  },
+  {
+    "Week": "15",
+    "Day": "Sun",
+    "Date": "2023-12-17",
+    "Time": "1:00PM",
+    "TeamNames1": "Tampa Bay Buccaneers",
+    "TeamNames2": "Green Bay Packers"
+  },
+  {
+    "Week": "15",
+    "Day": "Sun",
+    "Date": "2023-12-17",
+    "Time": "4:05PM",
+    "TeamNames1": "San Francisco 49ers",
+    "TeamNames2": "Arizona Cardinals"
+  },
+  {
+    "Week": "15",
+    "Day": "Sun",
+    "Date": "2023-12-17",
+    "Time": "4:05PM",
+    "TeamNames1": "Washington Commanders",
+    "TeamNames2": "Los Angeles Rams"
+  },
+  {
+    "Week": "15",
+    "Day": "Sun",
+    "Date": "2023-12-17",
+    "Time": "4:25PM",
+    "TeamNames1": "Dallas Cowboys",
+    "TeamNames2": "Buffalo Bills"
+  },
+  {
+    "Week": "15",
+    "Day": "Sun",
+    "Date": "2023-12-17",
+    "Time": "4:25PM",
+    "TeamNames1": "Philadelphia Eagles",
+    "TeamNames2": "Seattle Seahawks"
+  },
+  {
+    "Week": "15",
+    "Day": "Sun",
+    "Date": "2023-12-17",
+    "Time": "8:20PM",
+    "TeamNames1": "Baltimore Ravens",
+    "TeamNames2": "Jacksonville Jaguars"
+  },
+  {
+    "Week": "15",
+    "Day": "Mon",
+    "Date": "2023-12-18",
+    "Time": "8:15PM",
+    "TeamNames1": "Kansas City Chiefs",
+    "TeamNames2": "New England Patriots"
+  },
+  {
+    "Week": "Week",
+    "Day": "Day",
+    "Date": "Date",
+    "Time": "Time",
+    "TeamNames1": "Visitor",
+    "TeamNames2": "Home"
+  },
+  {
+    "Week": "16",
+    "Day": "Thu",
+    "Date": "2023-12-21",
+    "Time": "8:15PM",
+    "TeamNames1": "New Orleans Saints",
+    "TeamNames2": "Los Angeles Rams"
+  },
+  {
+    "Week": "16",
+    "Day": "Sat",
+    "Date": "2023-12-23",
+    "Time": "4:30PM",
+    "TeamNames1": "Cincinnati Bengals",
+    "TeamNames2": "Pittsburgh Steelers"
+  },
+  {
+    "Week": "16",
+    "Day": "Sat",
+    "Date": "2023-12-23",
+    "Time": "8:00PM",
+    "TeamNames1": "Buffalo Bills",
+    "TeamNames2": "Los Angeles Chargers"
+  },
+  {
+    "Week": "16",
+    "Day": "Sun",
+    "Date": "2023-12-24",
+    "Time": "1:00PM",
+    "TeamNames1": "Cleveland Browns",
+    "TeamNames2": "Houston Texans"
+  },
+  {
+    "Week": "16",
+    "Day": "Sun",
+    "Date": "2023-12-24",
+    "Time": "1:00PM",
+    "TeamNames1": "Indianapolis Colts",
+    "TeamNames2": "Atlanta Falcons"
+  },
+  {
+    "Week": "16",
+    "Day": "Sun",
+    "Date": "2023-12-24",
+    "Time": "1:00PM",
+    "TeamNames1": "Detroit Lions",
+    "TeamNames2": "Minnesota Vikings"
+  },
+  {
+    "Week": "16",
+    "Day": "Sun",
+    "Date": "2023-12-24",
+    "Time": "1:00PM",
+    "TeamNames1": "Green Bay Packers",
+    "TeamNames2": "Carolina Panthers"
+  },
+  {
+    "Week": "16",
+    "Day": "Sun",
+    "Date": "2023-12-24",
+    "Time": "1:00PM",
+    "TeamNames1": "Seattle Seahawks",
+    "TeamNames2": "Tennessee Titans"
+  },
+  {
+    "Week": "16",
+    "Day": "Sun",
+    "Date": "2023-12-24",
+    "Time": "1:00PM",
+    "TeamNames1": "Washington Commanders",
+    "TeamNames2": "New York Jets"
+  },
+  {
+    "Week": "16",
+    "Day": "Sun",
+    "Date": "2023-12-24",
+    "Time": "4:05PM",
+    "TeamNames1": "Jacksonville Jaguars",
+    "TeamNames2": "Tampa Bay Buccaneers"
+  },
+  {
+    "Week": "16",
+    "Day": "Sun",
+    "Date": "2023-12-24",
+    "Time": "4:25PM",
+    "TeamNames1": "Arizona Cardinals",
+    "TeamNames2": "Chicago Bears"
+  },
+  {
+    "Week": "16",
+    "Day": "Sun",
+    "Date": "2023-12-24",
+    "Time": "4:25PM",
+    "TeamNames1": "Dallas Cowboys",
+    "TeamNames2": "Miami Dolphins"
+  },
+  {
+    "Week": "16",
+    "Day": "Sun",
+    "Date": "2023-12-24",
+    "Time": "8:15PM",
+    "TeamNames1": "New England Patriots",
+    "TeamNames2": "Denver Broncos"
+  },
+  {
+    "Week": "16",
+    "Day": "Mon",
+    "Date": "2023-12-25",
+    "Time": "1:00PM",
+    "TeamNames1": "Las Vegas Raiders",
+    "TeamNames2": "Kansas City Chiefs"
+  },
+  {
+    "Week": "16",
+    "Day": "Mon",
+    "Date": "2023-12-25",
+    "Time": "4:30PM",
+    "TeamNames1": "New York Giants",
+    "TeamNames2": "Philadelphia Eagles"
+  },
+  {
+    "Week": "16",
+    "Day": "Mon",
+    "Date": "2023-12-25",
+    "Time": "8:15PM",
+    "TeamNames1": "Baltimore Ravens",
+    "TeamNames2": "San Francisco 49ers"
+  },
+  {
+    "Week": "Week",
+    "Day": "Day",
+    "Date": "Date",
+    "Time": "Time",
+    "TeamNames1": "Visitor",
+    "TeamNames2": "Home"
+  },
+  {
+    "Week": "17",
+    "Day": "Thu",
+    "Date": "2023-12-28",
+    "Time": "8:15PM",
+    "TeamNames1": "New York Jets",
+    "TeamNames2": "Cleveland Browns"
+  },
+  {
+    "Week": "17",
+    "Day": "Sat",
+    "Date": "2023-12-30",
+    "Time": "8:15PM",
+    "TeamNames1": "Detroit Lions",
+    "TeamNames2": "Dallas Cowboys"
+  },
+  {
+    "Week": "17",
+    "Day": "Sun",
+    "Date": "2023-12-31",
+    "Time": "1:00PM",
+    "TeamNames1": "Atlanta Falcons",
+    "TeamNames2": "Chicago Bears"
+  },
+  {
+    "Week": "17",
+    "Day": "Sun",
+    "Date": "2023-12-31",
+    "Time": "1:00PM",
+    "TeamNames1": "Carolina Panthers",
+    "TeamNames2": "Jacksonville Jaguars"
+  },
+  {
+    "Week": "17",
+    "Day": "Sun",
+    "Date": "2023-12-31",
+    "Time": "1:00PM",
+    "TeamNames1": "Arizona Cardinals",
+    "TeamNames2": "Philadelphia Eagles"
+  },
+  {
+    "Week": "17",
+    "Day": "Sun",
+    "Date": "2023-12-31",
+    "Time": "1:00PM",
+    "TeamNames1": "Miami Dolphins",
+    "TeamNames2": "Baltimore Ravens"
+  },
+  {
+    "Week": "17",
+    "Day": "Sun",
+    "Date": "2023-12-31",
+    "Time": "1:00PM",
+    "TeamNames1": "New Orleans Saints",
+    "TeamNames2": "Tampa Bay Buccaneers"
+  },
+  {
+    "Week": "17",
+    "Day": "Sun",
+    "Date": "2023-12-31",
+    "Time": "1:00PM",
+    "TeamNames1": "New England Patriots",
+    "TeamNames2": "Buffalo Bills"
+  },
+  {
+    "Week": "17",
+    "Day": "Sun",
+    "Date": "2023-12-31",
+    "Time": "1:00PM",
+    "TeamNames1": "Tennessee Titans",
+    "TeamNames2": "Houston Texans"
+  },
+  {
+    "Week": "17",
+    "Day": "Sun",
+    "Date": "2023-12-31",
+    "Time": "1:00PM",
+    "TeamNames1": "Las Vegas Raiders",
+    "TeamNames2": "Indianapolis Colts"
+  },
+  {
+    "Week": "17",
+    "Day": "Sun",
+    "Date": "2023-12-31",
+    "Time": "1:00PM",
+    "TeamNames1": "Los Angeles Rams",
+    "TeamNames2": "New York Giants"
+  },
+  {
+    "Week": "17",
+    "Day": "Sun",
+    "Date": "2023-12-31",
+    "Time": "1:00PM",
+    "TeamNames1": "San Francisco 49ers",
+    "TeamNames2": "Washington Commanders"
+  },
+  {
+    "Week": "17",
+    "Day": "Sun",
+    "Date": "2023-12-31",
+    "Time": "4:05PM",
+    "TeamNames1": "Pittsburgh Steelers",
+    "TeamNames2": "Seattle Seahawks"
+  },
+  {
+    "Week": "17",
+    "Day": "Sun",
+    "Date": "2023-12-31",
+    "Time": "4:25PM",
+    "TeamNames1": "Cincinnati Bengals",
+    "TeamNames2": "Kansas City Chiefs"
+  },
+  {
+    "Week": "17",
+    "Day": "Sun",
+    "Date": "2023-12-31",
+    "Time": "4:25PM",
+    "TeamNames1": "Los Angeles Chargers",
+    "TeamNames2": "Denver Broncos"
+  },
+  {
+    "Week": "17",
+    "Day": "Sun",
+    "Date": "2023-12-31",
+    "Time": "8:20PM",
+    "TeamNames1": "Green Bay Packers",
+    "TeamNames2": "Minnesota Vikings"
+  },
+  {
+    "Week": "Week",
+    "Day": "Day",
+    "Date": "Date",
+    "Time": "Time",
+    "TeamNames1": "Visitor",
+    "TeamNames2": "Home"
+  },
+  {
+    "Week": "18",
+    "Day": "Sun",
+    "Date": "2024-01-07",
+    "Time": "1:00PM",
+    "TeamNames1": "Atlanta Falcons",
+    "TeamNames2": "New Orleans Saints"
+  },
+  {
+    "Week": "18",
+    "Day": "Sun",
+    "Date": "2024-01-07",
+    "Time": "1:00PM",
+    "TeamNames1": "Buffalo Bills",
+    "TeamNames2": "Miami Dolphins"
+  },
+  {
+    "Week": "18",
+    "Day": "Sun",
+    "Date": "2024-01-07",
+    "Time": "1:00PM",
+    "TeamNames1": "Chicago Bears",
+    "TeamNames2": "Green Bay Packers"
+  },
+  {
+    "Week": "18",
+    "Day": "Sun",
+    "Date": "2024-01-07",
+    "Time": "1:00PM",
+    "TeamNames1": "Cleveland Browns",
+    "TeamNames2": "Cincinnati Bengals"
+  },
+  {
+    "Week": "18",
+    "Day": "Sun",
+    "Date": "2024-01-07",
+    "Time": "1:00PM",
+    "TeamNames1": "Dallas Cowboys",
+    "TeamNames2": "Washington Commanders"
+  },
+  {
+    "Week": "18",
+    "Day": "Sun",
+    "Date": "2024-01-07",
+    "Time": "1:00PM",
+    "TeamNames1": "Denver Broncos",
+    "TeamNames2": "Las Vegas Raiders"
+  },
+  {
+    "Week": "18",
+    "Day": "Sun",
+    "Date": "2024-01-07",
+    "Time": "1:00PM",
+    "TeamNames1": "Houston Texans",
+    "TeamNames2": "Indianapolis Colts"
+  },
+  {
+    "Week": "18",
+    "Day": "Sun",
+    "Date": "2024-01-07",
+    "Time": "1:00PM",
+    "TeamNames1": "Jacksonville Jaguars",
+    "TeamNames2": "Tennessee Titans"
+  },
+  {
+    "Week": "18",
+    "Day": "Sun",
+    "Date": "2024-01-07",
+    "Time": "1:00PM",
+    "TeamNames1": "Kansas City Chiefs",
+    "TeamNames2": "Los Angeles Chargers"
+  },
+  {
+    "Week": "18",
+    "Day": "Sun",
+    "Date": "2024-01-07",
+    "Time": "1:00PM",
+    "TeamNames1": "Minnesota Vikings",
+    "TeamNames2": "Detroit Lions"
+  },
+  {
+    "Week": "18",
+    "Day": "Sun",
+    "Date": "2024-01-07",
+    "Time": "1:00PM",
+    "TeamNames1": "New York Jets",
+    "TeamNames2": "New England Patriots"
+  },
+  {
+    "Week": "18",
+    "Day": "Sun",
+    "Date": "2024-01-07",
+    "Time": "1:00PM",
+    "TeamNames1": "Philadelphia Eagles",
+    "TeamNames2": "New York Giants"
+  },
+  {
+    "Week": "18",
+    "Day": "Sun",
+    "Date": "2024-01-07",
+    "Time": "1:00PM",
+    "TeamNames1": "Pittsburgh Steelers",
+    "TeamNames2": "Baltimore Ravens"
+  },
+  {
+    "Week": "18",
+    "Day": "Sun",
+    "Date": "2024-01-07",
+    "Time": "1:00PM",
+    "TeamNames1": "Los Angeles Rams",
+    "TeamNames2": "San Francisco 49ers"
+  },
+  {
+    "Week": "18",
+    "Day": "Sun",
+    "Date": "2024-01-07",
+    "Time": "1:00PM",
+    "TeamNames1": "Seattle Seahawks",
+    "TeamNames2": "Arizona Cardinals"
+  },
+  {
+    "Week": "18",
+    "Day": "Sun",
+    "Date": "2024-01-07",
+    "Time": "1:00PM",
+    "TeamNames1": "Tampa Bay Buccaneers",
+    "TeamNames2": "Carolina Panthers"
+  }
+]
