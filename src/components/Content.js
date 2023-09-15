@@ -37,46 +37,38 @@ const Content = ({ activeTab }) => {
             ))}
           </select>
         </div>
-        <div className="games-container">
+
+
+  <div className="games-container">
+
   {scheduleData
-    .filter((game) => game.Week === selectedWeek)
-    .map((game, index) => (
-      <div key={index} className="game-box">
-        <div className="header-row">
-          <div className="box-label">Teams</div>
-          <div className="box-label">Score</div>
-          <div className="box-label">Win Prob.</div>
+  .filter((game) => game.Week === selectedWeek)
+  .map((game, index) => (
+    <div key={index} className="game-box">
+      <div className="team-container">
+        <div className='team-logo img'>
+          <img src={require(`../logosnfl/${game.Away}.gif`)} alt={`${game.Away} Logo`} />
         </div>
-        <div className="away-team-row">
-          <div className="team-logo">
-            <img src={require(`../logosnfl/${game.Away}.gif`)} alt={`${game.Away} Logo`} />
-          </div>
-          <div className="team-names">
-            <div>{game.Away}</div>
-          </div>
-          <div className="score">
-            <div>{game.ScoreA}</div>
-          </div>
-          <div className="win-probability">
-            <div>{calculateWinProbability(game.probA)}</div>
-          </div>
-        </div>
-        <div className="home-team-row">
-          <div className="team-logo">
-            <img src={require(`../logosnfl/${game.Home}.gif`)} alt={`${game.Home} Logo`} />
-          </div>
-          <div className="team-names">
-            <div>@&nbsp;{game.Home}</div>
-          </div>
-          <div className="score">
-            <div>{game.ScoreH}</div>
-          </div>
-          <div className="win-probability">
-            <div>{calculateWinProbability(game.probH)}</div>
-          </div>
+        <div className="team-info">
+          <div className="team-name">{game.Away}</div>
+          <div className="team-score">{game.ScoreA}</div>
+          <div className="team-win">{calculateWinProbability(game.probA)}</div>
         </div>
       </div>
-    ))}
+      <div className="team-container">
+        <div className='team-logo img'>
+          <img src={require(`../logosnfl/${game.Home}.gif`)} alt={`${game.Home} Logo`} />
+        </div>
+        <div className="team-info">
+          <div className="team-name">{`@ ${game.Home}`}</div>
+          <div className="team-score">{game.ScoreH}</div>
+          <div className="team-win">{calculateWinProbability(game.probH)}</div>
+        </div>
+      </div>
+    </div>
+  ))
+}
+
 </div>
 
 
