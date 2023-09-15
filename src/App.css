@@ -105,7 +105,7 @@ body {
 .away-team-row {
   grid-row: 2; /* Place in the second row */
   display: grid;
-  grid-template-columns: auto 1fr auto 1fr; /* Evenly spaced columns */
+  grid-template-columns: auto auto auto auto; /* Four columns */
   gap: 5px;
   align-items: center;
 }
@@ -113,11 +113,10 @@ body {
 .home-team-row {
   grid-row: 3; /* Place in the third row */
   display: grid;
-  grid-template-columns: auto 1fr auto 1fr; /* Evenly spaced columns */
+  grid-template-columns: auto auto auto auto; /* Four columns */
   gap: 5px;
   align-items: center;
 }
-
 
 /* CSS for team logos */
 .team-logo img {
@@ -160,7 +159,7 @@ body {
 }
 
 .score {
-  font-family: 'Space Mono Bold';
+  font-family: 'Space Mono';
 }
 
 /* Navigation */

@@ -66,7 +66,7 @@ const Content = ({ activeTab }) => {
             <img src={require(`../logosnfl/${game.Home}.gif`)} alt={`${game.Home} Logo`} />
           </div>
           <div className="team-names">
-            <div>@ {game.Home}</div>
+            <div>@&nbsp;{game.Home}</div>
           </div>
           <div className="score">
             <div>{game.ScoreH}</div>
