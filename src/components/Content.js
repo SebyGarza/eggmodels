@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import nflScheduleData from '../scraping/nfl_schedule.json'; // Import the JSON file
+import nflScheduleData from '../python/nflModel.json';
+import '../App.css';
 
 const Content = ({ activeTab }) => {
   const [scheduleData, setScheduleData] = useState([]);
-  const [selectedWeek, setSelectedWeek] = useState('1'); // Default to "Week 2"
+  const [selectedWeek, setSelectedWeek] = useState('2');
 
   useEffect(() => {
     // Use the imported JSON data directly
@@ -14,12 +15,16 @@ const Content = ({ activeTab }) => {
     setSelectedWeek(event.target.value);
   };
 
-  const uniqueWeeks = Array.from(new Set(scheduleData.map((game) => game.Week)));
+  const uniqueWeeks = Array.from(new Set(scheduleData.map((game) => game.Week)))
+    .filter((week) => week !== 'Week' && parseInt(week) >= 1);
 
-  const filteredScheduleData =
-    selectedWeek === 'Week' ? scheduleData : scheduleData.filter((game) => game.Week === selectedWeek);
+  // Function to calculate and format the win probability
+  const calculateWinProbability = (prob) => {
+    return `${(prob * 100).toFixed(2)}%`;
+  };
 
   if (activeTab === 'NFL') {
+     // const selectedWeek = '2';
     return (
       <div className="nfl-schedule">
         <div className="week-selector">
@@ -32,30 +37,49 @@ const Content = ({ activeTab }) => {
             ))}
           </select>
         </div>
-        <table>
-          <thead>
-            <tr>
-              <th>Week</th>
-              <th>Day</th>
-              <th>Date</th>
-              <th>Time</th>
-              <th>Home</th>
-              <th>Away</th>
-            </tr>
-          </thead>
-          <tbody>
-            {filteredScheduleData.map((game, index) => (
-              <tr key={index}>
-                <td>{game.Week}</td>
-                <td>{game.Day}</td>
-                <td>{game.Date}</td>
-                <td>{game.Time}</td>
-                <td>{game.TeamNames1}</td>
-                <td>{game.TeamNames2}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+        <div className="games-container">
+  {scheduleData
+    .filter((game) => game.Week === selectedWeek)
+    .map((game, index) => (
+      <div key={index} className="game-box">
+        <div className="header-row">
+          <div className="box-label">Teams</div>
+          <div className="box-label">Score</div>
+          <div className="box-label">Win Prob.</div>
+        </div>
+        <div className="away-team-row">
+          <div className="team-logo">
+            <img src={require(`../logosnfl/${game.Away}.gif`)} alt={`${game.Away} Logo`} />
+          </div>
+          <div className="team-names">
+            <div>{game.Away}</div>
+          </div>
+          <div className="score">
+            <div>{game.ScoreA}</div>
+          </div>
+          <div className="win-probability">
+            <div>{calculateWinProbability(game.probA)}</div>
+          </div>
+        </div>
+        <div className="home-team-row">
+          <div className="team-logo">
+            <img src={require(`../logosnfl/${game.Home}.gif`)} alt={`${game.Home} Logo`} />
+          </div>
+          <div className="team-names">
+            <div>@ {game.Home}</div>
+          </div>
+          <div className="score">
+            <div>{game.ScoreH}</div>
+          </div>
+          <div className="win-probability">
+            <div>{calculateWinProbability(game.probH)}</div>
+          </div>
+        </div>
+      </div>
+    ))}
+</div>
+
+
       </div>
     );
   }

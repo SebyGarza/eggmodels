@@ -1,29 +1,192 @@
-/* src/App.css */
-.App {
-  text-align: center;
+/* Fonts */
+@font-face {
+  font-family: 'Space Mono';
+  src: url('./fonts/Space_Mono/SpaceMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
+@font-face {
+  font-family: 'Space Mono Bold';
+  src: url('./fonts/Space_Mono/SpaceMono-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Prompt';
+  src: url('./fonts/Prompt/Prompt-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Set background color for the entire page */
+body {
+  margin: 0; /* Remove default body margin */
+  font-family: 'Space Mono';
+  background-color: #F2F1F0;
+  margin-bottom: 17%; /* Add margin at the bottom */
+  overflow: auto; /* Make the entire page scrollable */
+}
+
+/* Navbar Logo */
+.navbar-logo {
+  width: 20%;
+  height: auto;
+  margin-right: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+/* Week Selector */
+.week-selector {
+  padding: 20px;
+}
+
+/* Games Container */
+.games-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10%;
+  justify-items: center;
+  align-items: center;
+  padding: 100px;
+  padding-top: 2%;
+}
+
+/* Game Box */
+.game-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+  border-radius: 10px;
+  font-weight: bolder;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+  height: auto;
+}
+
+/* Add styles for the box labels */
+.box-label {
+  text-align: center;
+  font-weight: bold;
+  background-color: #e0e0e0; /* Customize the background color */
+  padding: 5px; /* Add padding for spacing */
+  border-radius: 5px; /* Add rounded corners */
+  margin-bottom: 5px; /* Add some space between labels and content */
+}
+
+/* CSS for the game box container */
+.content {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px;
+  grid-auto-rows: minmax(auto, auto);
+  align-items: center;
+}
+
+/* CSS for the header row */
+.header-row {
+  grid-row: 1; /* Place in the first row */
+  grid-column: span 4; /* Span all columns */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  background-color: #f0f0f0; /* Header background color */
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* CSS for team rows (Away and Home) */
+.away-team-row {
+  grid-row: 2; /* Place in the second row */
+  display: grid;
+  grid-template-columns: auto 1fr auto 1fr; /* Evenly spaced columns */
+  gap: 5px;
+  align-items: center;
+}
+
+.home-team-row {
+  grid-row: 3; /* Place in the third row */
+  display: grid;
+  grid-template-columns: auto 1fr auto 1fr; /* Evenly spaced columns */
+  gap: 5px;
+  align-items: center;
+}
+
+
+/* CSS for team logos */
+.team-logo img {
+  width: 37.5px;
+  height: 25px;
+  margin: 0;
+}
+
+/* CSS for team names */
+.team-names {
+  font-weight: bold;
+}
+
+/* CSS for scores and win probability */
+.score,
+.win-probability {
+  font-weight: normal;
+}
+
+/* App Container */
+.App {
+  text-align: center;
+  font-family: 'Space Mono';
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* NFL Schedule Container */
+.nfl-schedule {
+  flex-grow: 1;
+}
+
+/* Team Names, Score, Win Probability */
+.team-names,
+.score,
+.win-probability {
+  text-align: center;
+  font-weight: normal;
+}
+
+.score {
+  font-family: 'Space Mono Bold';
+}
+
+/* Navigation */
 nav {
-  background-color: #333;
-  color: white;
+  color: #6B5035;
+  height: 100px;
 }
 
 nav ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 nav ul li {
   display: inline-block;
   padding: 10px 20px;
+  margin: 0;
+  border: 0;
   cursor: pointer;
+  font-family: 'Prompt';
+  margin-top: 2%;
+  border-radius: 10px;
 }
 
 nav ul li.active {
-  background-color: #555;
+  background-color: #FFAF5D;
 }
-
-.content {
-  padding: 20px;
-}
-
