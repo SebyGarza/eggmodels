@@ -23,53 +23,73 @@ const Content = ({ activeTab }) => {
     return `${(prob * 100).toFixed(2)}%`;
   };
 
+  const rounding = (spread) => {
+    return `${spread.toFixed(2)}`;
+  };
+
+  if (activeTab === 'Blog') {
+    return (
+      <p>Soy eugenio y soy gay</p>
+    );
+  }
+
   if (activeTab === 'NFL') {
-     // const selectedWeek = '2';
+    const selectedWeek = '2'; // week selection
     return (
       <div className="nfl-schedule">
         <div className="week-selector">
-          <label htmlFor="weekSelect">Select Week:</label>
-          <select id="weekSelect" onChange={handleWeekChange} value={selectedWeek}>
+          <label>Week 2</label> 
+          {/* <select onChange={handleWeekChange} value={selectedWeek}>
             {uniqueWeeks.map((week, index) => (
               <option key={index} value={week}>
                 {week}
               </option>
             ))}
-          </select>
+          </select> */}
         </div>
 
 
-  <div className="games-container">
+        <div className="games-container">
 
-  {scheduleData
-  .filter((game) => game.Week === selectedWeek)
-  .map((game, index) => (
-    <div key={index} className="game-box">
-      <div className="team-container">
-        <div className='team-logo img'>
-          <img src={require(`../logosnfl/${game.Away}.gif`)} alt={`${game.Away} Logo`} />
-        </div>
-        <div className="team-info">
-          <div className="team-name">{game.Away}</div>
-          <div className="team-score">{game.ScoreA}</div>
-          <div className="team-win">{calculateWinProbability(game.probA)}</div>
-        </div>
-      </div>
-      <div className="team-container">
-        <div className='team-logo img'>
-          <img src={require(`../logosnfl/${game.Home}.gif`)} alt={`${game.Home} Logo`} />
-        </div>
-        <div className="team-info">
-          <div className="team-name">{`@ ${game.Home}`}</div>
-          <div className="team-score">{game.ScoreH}</div>
-          <div className="team-win">{calculateWinProbability(game.probH)}</div>
-        </div>
-      </div>
-    </div>
-  ))
-}
+          {scheduleData
+            .filter((game) => game.Week === selectedWeek)
+            .map((game, index) => (
+              <div key={index} className="game-box">
+                <table className="game-table">
+                  <tr>
+                    <th>Teams</th>
+                    <th>Win Prob.</th>
+                    <th>EloSpread</th>
+                    <th>Score</th>
+                  </tr>
+                    
+                  <tr>
+                    <td className='team-name'>
+                      <img className='team-logo' src={require(`../logosnfl/${game.Away}.png`)} alt={`${game.Away} Logo`} />
+                      {game.Away} 
+                    </td>
+                    <td>{calculateWinProbability(game.probA)}</td>
+                    <td></td>
+                    <td>{game.ScoreA}</td>
+                  </tr>
 
-</div>
+                  <tr>
+                    <td className='team-name'>
+                    <img className='team-logo' src={require(`../logosnfl/${game.Home}.png`)} alt={`${game.Home} Logo`} />
+                      {game.Home}
+                    </td>
+                    <td>{calculateWinProbability(game.probH)}</td>
+                    <td>{rounding(game.eloSpread)}</td>
+                    <td>{game.ScoreH}</td>
+                  </tr>
+
+                </table>
+                
+              </div>
+            ))
+          }
+
+        </div>
 
 
       </div>

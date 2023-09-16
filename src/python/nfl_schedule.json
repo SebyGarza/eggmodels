@@ -13,7 +13,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "1",
@@ -29,103 +30,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
-  },
-  {
-    "Week": "1",
-    "Day": "Sun",
-    "Date": "2023-09-10",
-    "Time": "1:00PM",
-    "Home": "Browns",
-    "Away": "Bengals",
-    "ScoreH": 24,
-    "ScoreA": 3,
-    "ElopreH": null,
-    "ElopreA": null,
-    "ElopostH": null,
-    "ElopostA": null,
-    "probH": null,
-    "probA": null
-  },
-  {
-    "Week": "1",
-    "Day": "Sun",
-    "Date": "2023-09-10",
-    "Time": "1:00PM",
-    "Home": "Colts",
-    "Away": "Jaguars",
-    "ScoreH": 21,
-    "ScoreA": 31,
-    "ElopreH": null,
-    "ElopreA": null,
-    "ElopostH": null,
-    "ElopostA": null,
-    "probH": null,
-    "probA": null
-  },
-  {
-    "Week": "1",
-    "Day": "Sun",
-    "Date": "2023-09-10",
-    "Time": "1:00PM",
-    "Home": "Commanders",
-    "Away": "Cardinals",
-    "ScoreH": 20,
-    "ScoreA": 16,
-    "ElopreH": null,
-    "ElopreA": null,
-    "ElopostH": null,
-    "ElopostA": null,
-    "probH": null,
-    "probA": null
-  },
-  {
-    "Week": "1",
-    "Day": "Sun",
-    "Date": "2023-09-10",
-    "Time": "1:00PM",
-    "Home": "Ravens",
-    "Away": "Texans",
-    "ScoreH": 25,
-    "ScoreA": 9,
-    "ElopreH": null,
-    "ElopreA": null,
-    "ElopostH": null,
-    "ElopostA": null,
-    "probH": null,
-    "probA": null
-  },
-  {
-    "Week": "1",
-    "Day": "Sun",
-    "Date": "2023-09-10",
-    "Time": "1:00PM",
-    "Home": "Vikings",
-    "Away": "Buccaneers",
-    "ScoreH": 17,
-    "ScoreA": 20,
-    "ElopreH": null,
-    "ElopreA": null,
-    "ElopostH": null,
-    "ElopostA": null,
-    "probH": null,
-    "probA": null
-  },
-  {
-    "Week": "1",
-    "Day": "Sun",
-    "Date": "2023-09-10",
-    "Time": "1:00PM",
-    "Home": "Saints",
-    "Away": "Titans",
-    "ScoreH": 16,
-    "ScoreA": 15,
-    "ElopreH": null,
-    "ElopreA": null,
-    "ElopostH": null,
-    "ElopostA": null,
-    "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "1",
@@ -141,71 +47,110 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "1",
     "Day": "Sun",
     "Date": "2023-09-10",
-    "Time": "4:25PM",
-    "Home": "Bears",
-    "Away": "Packers",
-    "ScoreH": 20,
-    "ScoreA": 38,
+    "Time": "1:00PM",
+    "Home": "Browns",
+    "Away": "Bengals",
+    "ScoreH": 24,
+    "ScoreA": 3,
     "ElopreH": null,
     "ElopreA": null,
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "1",
     "Day": "Sun",
     "Date": "2023-09-10",
-    "Time": "4:25PM",
-    "Home": "Broncos",
-    "Away": "Raiders",
+    "Time": "1:00PM",
+    "Home": "Colts",
+    "Away": "Jaguars",
+    "ScoreH": 21,
+    "ScoreA": 31,
+    "ElopreH": null,
+    "ElopreA": null,
+    "ElopostH": null,
+    "ElopostA": null,
+    "probH": null,
+    "probA": null,
+    "eloSpread": null
+  },
+  {
+    "Week": "1",
+    "Day": "Sun",
+    "Date": "2023-09-10",
+    "Time": "1:00PM",
+    "Home": "Commanders",
+    "Away": "Cardinals",
+    "ScoreH": 20,
+    "ScoreA": 16,
+    "ElopreH": null,
+    "ElopreA": null,
+    "ElopostH": null,
+    "ElopostA": null,
+    "probH": null,
+    "probA": null,
+    "eloSpread": null
+  },
+  {
+    "Week": "1",
+    "Day": "Sun",
+    "Date": "2023-09-10",
+    "Time": "1:00PM",
+    "Home": "Saints",
+    "Away": "Titans",
     "ScoreH": 16,
-    "ScoreA": 17,
+    "ScoreA": 15,
     "ElopreH": null,
     "ElopreA": null,
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "1",
     "Day": "Sun",
     "Date": "2023-09-10",
-    "Time": "4:25PM",
-    "Home": "Chargers",
-    "Away": "Dolphins",
-    "ScoreH": 34,
-    "ScoreA": 36,
+    "Time": "1:00PM",
+    "Home": "Ravens",
+    "Away": "Texans",
+    "ScoreH": 25,
+    "ScoreA": 9,
     "ElopreH": null,
     "ElopreA": null,
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "1",
     "Day": "Sun",
     "Date": "2023-09-10",
-    "Time": "4:25PM",
-    "Home": "Patriots",
-    "Away": "Eagles",
-    "ScoreH": 20,
-    "ScoreA": 25,
+    "Time": "1:00PM",
+    "Home": "Vikings",
+    "Away": "Buccaneers",
+    "ScoreH": 17,
+    "ScoreA": 20,
     "ElopreH": null,
     "ElopreA": null,
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "1",
@@ -221,7 +166,76 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
+  },
+  {
+    "Week": "1",
+    "Day": "Sun",
+    "Date": "2023-09-10",
+    "Time": "4:25PM",
+    "Home": "Patriots",
+    "Away": "Eagles",
+    "ScoreH": 20,
+    "ScoreA": 25,
+    "ElopreH": null,
+    "ElopreA": null,
+    "ElopostH": null,
+    "ElopostA": null,
+    "probH": null,
+    "probA": null,
+    "eloSpread": null
+  },
+  {
+    "Week": "1",
+    "Day": "Sun",
+    "Date": "2023-09-10",
+    "Time": "4:25PM",
+    "Home": "Chargers",
+    "Away": "Dolphins",
+    "ScoreH": 34,
+    "ScoreA": 36,
+    "ElopreH": null,
+    "ElopreA": null,
+    "ElopostH": null,
+    "ElopostA": null,
+    "probH": null,
+    "probA": null,
+    "eloSpread": null
+  },
+  {
+    "Week": "1",
+    "Day": "Sun",
+    "Date": "2023-09-10",
+    "Time": "4:25PM",
+    "Home": "Broncos",
+    "Away": "Raiders",
+    "ScoreH": 16,
+    "ScoreA": 17,
+    "ElopreH": null,
+    "ElopreA": null,
+    "ElopostH": null,
+    "ElopostA": null,
+    "probH": null,
+    "probA": null,
+    "eloSpread": null
+  },
+  {
+    "Week": "1",
+    "Day": "Sun",
+    "Date": "2023-09-10",
+    "Time": "4:25PM",
+    "Home": "Bears",
+    "Away": "Packers",
+    "ScoreH": 20,
+    "ScoreA": 38,
+    "ElopreH": null,
+    "ElopreA": null,
+    "ElopostH": null,
+    "ElopostA": null,
+    "probH": null,
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "1",
@@ -237,7 +251,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "1",
@@ -253,7 +268,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "2",
@@ -262,14 +278,15 @@
     "Time": "8:15PM",
     "Home": "Eagles",
     "Away": "Vikings",
-    "ScoreH": null,
-    "ScoreA": null,
+    "ScoreH": 34,
+    "ScoreA": 28,
     "ElopreH": null,
     "ElopreA": null,
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "2",
@@ -285,7 +302,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "2",
@@ -301,7 +319,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "2",
@@ -317,7 +336,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "2",
@@ -333,7 +353,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "2",
@@ -349,7 +370,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "2",
@@ -365,7 +387,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "2",
@@ -381,7 +404,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "2",
@@ -397,7 +421,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "2",
@@ -413,7 +438,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "2",
@@ -429,7 +455,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "2",
@@ -445,7 +472,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "2",
@@ -461,7 +489,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "2",
@@ -477,7 +506,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "2",
@@ -493,7 +523,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "2",
@@ -509,7 +540,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "3",
@@ -525,7 +557,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "3",
@@ -541,7 +574,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "3",
@@ -557,7 +591,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "3",
@@ -573,7 +608,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "3",
@@ -589,7 +625,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "3",
@@ -605,7 +642,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "3",
@@ -621,7 +659,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "3",
@@ -637,7 +676,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "3",
@@ -653,7 +693,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "3",
@@ -669,7 +710,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "3",
@@ -685,7 +727,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "3",
@@ -701,7 +744,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "3",
@@ -717,7 +761,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "3",
@@ -733,7 +778,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "3",
@@ -749,7 +795,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "3",
@@ -765,7 +812,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "4",
@@ -781,7 +829,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "4",
@@ -797,7 +846,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "4",
@@ -813,7 +863,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "4",
@@ -829,7 +880,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "4",
@@ -845,7 +897,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "4",
@@ -861,7 +914,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "4",
@@ -877,7 +931,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "4",
@@ -893,7 +948,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "4",
@@ -909,7 +965,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "4",
@@ -925,7 +982,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "4",
@@ -941,7 +999,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "4",
@@ -957,7 +1016,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "4",
@@ -973,7 +1033,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "4",
@@ -989,7 +1050,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "4",
@@ -1005,7 +1067,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "4",
@@ -1021,7 +1084,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "5",
@@ -1037,7 +1101,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "5",
@@ -1053,7 +1118,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "5",
@@ -1069,7 +1135,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "5",
@@ -1085,7 +1152,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "5",
@@ -1101,7 +1169,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "5",
@@ -1117,7 +1186,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "5",
@@ -1133,7 +1203,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "5",
@@ -1149,7 +1220,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "5",
@@ -1165,7 +1237,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "5",
@@ -1181,7 +1254,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "5",
@@ -1197,7 +1271,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "5",
@@ -1213,7 +1288,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "5",
@@ -1229,7 +1305,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "5",
@@ -1245,7 +1322,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "6",
@@ -1261,7 +1339,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "6",
@@ -1277,7 +1356,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "6",
@@ -1293,7 +1373,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "6",
@@ -1309,7 +1390,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "6",
@@ -1325,7 +1407,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "6",
@@ -1341,7 +1424,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "6",
@@ -1357,7 +1441,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "6",
@@ -1373,7 +1458,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "6",
@@ -1389,7 +1475,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "6",
@@ -1405,7 +1492,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "6",
@@ -1421,7 +1509,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "6",
@@ -1437,7 +1526,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "6",
@@ -1453,7 +1543,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "6",
@@ -1469,7 +1560,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "6",
@@ -1485,7 +1577,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "7",
@@ -1501,7 +1594,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "7",
@@ -1517,7 +1611,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "7",
@@ -1533,7 +1628,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "7",
@@ -1549,7 +1645,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "7",
@@ -1565,7 +1662,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "7",
@@ -1581,7 +1679,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "7",
@@ -1597,7 +1696,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "7",
@@ -1613,7 +1713,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "7",
@@ -1629,7 +1730,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "7",
@@ -1645,7 +1747,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "7",
@@ -1661,7 +1764,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "7",
@@ -1677,7 +1781,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "7",
@@ -1693,7 +1798,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "8",
@@ -1709,7 +1815,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "8",
@@ -1725,7 +1832,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "8",
@@ -1741,7 +1849,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "8",
@@ -1757,7 +1866,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "8",
@@ -1773,7 +1883,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "8",
@@ -1789,7 +1900,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "8",
@@ -1805,7 +1917,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "8",
@@ -1821,7 +1934,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "8",
@@ -1837,7 +1951,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "8",
@@ -1853,7 +1968,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "8",
@@ -1869,7 +1985,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "8",
@@ -1885,7 +2002,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "8",
@@ -1901,7 +2019,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "8",
@@ -1917,7 +2036,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "8",
@@ -1933,7 +2053,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "8",
@@ -1949,7 +2070,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "9",
@@ -1965,7 +2087,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "9",
@@ -1981,7 +2104,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "9",
@@ -1997,7 +2121,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "9",
@@ -2013,7 +2138,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "9",
@@ -2029,7 +2155,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "9",
@@ -2045,7 +2172,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "9",
@@ -2061,7 +2189,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "9",
@@ -2077,7 +2206,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "9",
@@ -2093,7 +2223,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "9",
@@ -2109,7 +2240,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "9",
@@ -2125,7 +2257,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "9",
@@ -2141,7 +2274,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "9",
@@ -2157,7 +2291,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "9",
@@ -2173,7 +2308,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "10",
@@ -2189,7 +2325,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "10",
@@ -2205,7 +2342,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "10",
@@ -2221,7 +2359,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "10",
@@ -2237,7 +2376,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "10",
@@ -2253,7 +2393,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "10",
@@ -2269,7 +2410,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "10",
@@ -2285,7 +2427,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "10",
@@ -2301,7 +2444,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "10",
@@ -2317,7 +2461,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "10",
@@ -2333,7 +2478,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "10",
@@ -2349,7 +2495,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "10",
@@ -2365,7 +2512,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "10",
@@ -2381,7 +2529,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "10",
@@ -2397,7 +2546,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "11",
@@ -2413,7 +2563,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "11",
@@ -2429,7 +2580,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "11",
@@ -2445,7 +2597,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "11",
@@ -2461,7 +2614,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "11",
@@ -2477,7 +2631,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "11",
@@ -2493,7 +2648,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "11",
@@ -2509,7 +2665,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "11",
@@ -2525,7 +2682,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "11",
@@ -2541,7 +2699,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "11",
@@ -2557,7 +2716,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "11",
@@ -2573,7 +2733,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "11",
@@ -2589,7 +2750,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "11",
@@ -2605,7 +2767,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "11",
@@ -2621,7 +2784,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "12",
@@ -2637,7 +2801,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "12",
@@ -2653,7 +2818,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "12",
@@ -2669,7 +2835,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "12",
@@ -2685,7 +2852,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "12",
@@ -2701,7 +2869,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "12",
@@ -2717,7 +2886,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "12",
@@ -2733,7 +2903,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "12",
@@ -2749,7 +2920,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "12",
@@ -2765,7 +2937,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "12",
@@ -2781,7 +2954,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "12",
@@ -2797,7 +2971,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "12",
@@ -2813,7 +2988,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "12",
@@ -2829,7 +3005,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "12",
@@ -2845,7 +3022,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "12",
@@ -2861,7 +3039,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "12",
@@ -2877,7 +3056,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "13",
@@ -2893,7 +3073,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "13",
@@ -2909,7 +3090,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "13",
@@ -2925,7 +3107,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "13",
@@ -2941,7 +3124,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "13",
@@ -2957,7 +3141,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "13",
@@ -2973,7 +3158,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "13",
@@ -2989,7 +3175,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "13",
@@ -3005,7 +3192,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "13",
@@ -3021,7 +3209,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "13",
@@ -3037,7 +3226,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "13",
@@ -3053,7 +3243,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "13",
@@ -3069,7 +3260,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "13",
@@ -3085,7 +3277,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "14",
@@ -3101,7 +3294,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "14",
@@ -3117,7 +3311,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "14",
@@ -3133,7 +3328,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "14",
@@ -3149,7 +3345,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "14",
@@ -3165,7 +3362,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "14",
@@ -3181,7 +3379,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "14",
@@ -3197,7 +3396,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "14",
@@ -3213,7 +3413,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "14",
@@ -3229,7 +3430,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "14",
@@ -3245,7 +3447,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "14",
@@ -3261,7 +3464,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "14",
@@ -3277,7 +3481,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "14",
@@ -3293,7 +3498,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "14",
@@ -3309,7 +3515,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "14",
@@ -3325,7 +3532,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "15",
@@ -3341,7 +3549,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "15",
@@ -3357,7 +3566,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "15",
@@ -3373,7 +3583,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "15",
@@ -3389,7 +3600,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "15",
@@ -3405,7 +3617,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "15",
@@ -3421,7 +3634,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "15",
@@ -3437,7 +3651,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "15",
@@ -3453,7 +3668,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "15",
@@ -3469,7 +3685,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "15",
@@ -3485,7 +3702,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "15",
@@ -3501,7 +3719,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "15",
@@ -3517,7 +3736,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "15",
@@ -3533,7 +3753,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "15",
@@ -3549,7 +3770,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "15",
@@ -3565,7 +3787,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "15",
@@ -3581,7 +3804,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "16",
@@ -3597,7 +3821,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "16",
@@ -3613,7 +3838,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "16",
@@ -3629,7 +3855,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "16",
@@ -3645,7 +3872,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "16",
@@ -3661,7 +3889,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "16",
@@ -3677,7 +3906,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "16",
@@ -3693,7 +3923,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "16",
@@ -3709,7 +3940,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "16",
@@ -3725,7 +3957,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "16",
@@ -3741,7 +3974,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "16",
@@ -3757,7 +3991,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "16",
@@ -3773,7 +4008,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "16",
@@ -3789,7 +4025,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "16",
@@ -3805,7 +4042,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "16",
@@ -3821,7 +4059,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "16",
@@ -3837,7 +4076,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "17",
@@ -3853,7 +4093,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "17",
@@ -3869,7 +4110,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "17",
@@ -3885,7 +4127,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "17",
@@ -3901,7 +4144,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "17",
@@ -3917,7 +4161,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "17",
@@ -3933,7 +4178,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "17",
@@ -3949,7 +4195,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "17",
@@ -3965,7 +4212,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "17",
@@ -3981,7 +4229,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "17",
@@ -3997,7 +4246,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "17",
@@ -4013,7 +4263,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "17",
@@ -4029,7 +4280,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "17",
@@ -4045,7 +4297,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "17",
@@ -4061,7 +4314,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "17",
@@ -4077,7 +4331,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "17",
@@ -4093,7 +4348,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "18",
@@ -4109,7 +4365,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "18",
@@ -4125,7 +4382,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "18",
@@ -4141,7 +4399,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "18",
@@ -4157,7 +4416,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "18",
@@ -4173,7 +4433,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "18",
@@ -4189,7 +4450,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "18",
@@ -4205,7 +4467,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "18",
@@ -4221,7 +4484,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "18",
@@ -4237,7 +4501,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "18",
@@ -4253,7 +4518,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "18",
@@ -4269,7 +4535,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "18",
@@ -4285,7 +4552,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "18",
@@ -4301,7 +4569,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "18",
@@ -4317,7 +4586,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "18",
@@ -4333,7 +4603,8 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   },
   {
     "Week": "18",
@@ -4349,6 +4620,7 @@
     "ElopostH": null,
     "ElopostA": null,
     "probH": null,
-    "probA": null
+    "probA": null,
+    "eloSpread": null
   }
 ]

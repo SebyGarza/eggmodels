@@ -91,6 +91,7 @@ def scheduleScraper():
                             "ElopostA": None,
                             "probH": None,
                             "probA": None,
+                            "eloSpread": None
                         }
                         schedule_data.append(game_data)
 

@@ -18,13 +18,10 @@ for index, row in nflModel.iterrows():
         nflModel.at[index, 'probH'] = expected1
         nflModel.at[index, 'probA'] = expected2
 
-
-
-
 # Add PostElo
 for index, row in nflModel.iterrows():
     # Check if ScoreH is not empty (assuming ScoreH is a numeric column)
-    if not pd.isnull(row['ScoreH']):
+    if not pd.isnull(row['ScoreH']) and not pd.isnull(row['probH']):
         # Calculate ElopostH and ElopostA using the update_elo_ratings function
         home_elo_pre = row['ElopreH']
         away_elo_pre = row['ElopreA']
@@ -34,7 +31,6 @@ for index, row in nflModel.iterrows():
         # Update the DataFrame with the calculated values
         nflModel.at[index, 'ElopostH'] = updated_home_elo
         nflModel.at[index, 'ElopostA'] = updated_away_elo
-
 
 #Transfer Post to Pre Elo
 # Initialize an empty dictionary to store team Elo ratings
@@ -92,6 +88,13 @@ for index, row in nflModel.iterrows():
         nflModel.at[index, 'probH'] = expected1
         nflModel.at[index, 'probA'] = expected2
 
+for index, row in nflModel.iterrows():
+    if not pd.isnull(row['ElopreH']):
+        home_team = row['ElopreH']
+        away_team = row['ElopreA']
+        print(home_team)
+        print(away_team)
+        nflModel.at[index, 'eloSpread'] = -(home_team - away_team + 65) / 25
 
 # Convert the DataFrame to JSON
 json_data = nflModel.to_json(orient='records')
