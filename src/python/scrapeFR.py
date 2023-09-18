@@ -77,7 +77,7 @@ def scheduleScraper():
                                 scoreH = None
 
                         game_data = {
-                            "Week": week,
+                            "Week": float(week),
                             "Day": day,
                             "Date": date,
                             "Time": time,

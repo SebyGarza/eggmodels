@@ -29,7 +29,7 @@ const Content = ({ activeTab }) => {
 
   if (activeTab === 'Blog') {
     return (
-      <p>Soy eugenio y soy gay</p>
+      <p>Soy Eugenio y soy heterosexual y estoy en una relacion.</p>
     );
   }
 
