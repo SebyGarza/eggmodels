@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import nflScheduleData from '../python/nflModel.json';
 import '../App.css';
+import Posts from './Posts.js'
 
 const Content = ({ activeTab }) => {
   const [scheduleData, setScheduleData] = useState([]);
@@ -29,7 +30,21 @@ const Content = ({ activeTab }) => {
 
   if (activeTab === 'Blog') {
     return (
-      <p>Soy Eugenio y soy heterosexual y estoy en una relacion.</p>
+      <div className='blog'>
+        <div className='intros'>
+          <h1>eggModels</h1>
+          <h3>Two brothers bringing back FiveThirtyEight models!</h3>
+          <h3>@eugeniogarzag @sebygarza</h3>
+        </div>
+
+        <div className='posts-container'>
+          <div className='post-box'>
+            <Posts></Posts>
+          </div>
+        </div>
+      </div>
+
+      
     );
   }
 
@@ -48,9 +63,7 @@ const Content = ({ activeTab }) => {
           </select> */}
         </div>
 
-
         <div className="games-container">
-
           {scheduleData
             .filter((game) => game.Week === selectedWeek)
             .map((game, index) => (
@@ -70,7 +83,7 @@ const Content = ({ activeTab }) => {
                     </td>
                     <td>{calculateWinProbability(game.probA)}</td>
                     <td></td>
-                    <td>{game.ScoreA}</td>
+                    <td className='score'>{game.ScoreA}</td>
                   </tr>
 
                   <tr>
@@ -80,7 +93,7 @@ const Content = ({ activeTab }) => {
                     </td>
                     <td>{calculateWinProbability(game.probH)}</td>
                     <td>{rounding(game.eloSpread)}</td>
-                    <td>{game.ScoreH}</td>
+                    <td className='score'>{game.ScoreH}</td>
                   </tr>
 
                 </table>

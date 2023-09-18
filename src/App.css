@@ -71,6 +71,13 @@ li {
   justify-content: space-evenly;
 }
 
+.posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-evenly;
+}
+
 /* Set a fixed width for the game boxes */
 .game-box {
   display: flex;
@@ -82,6 +89,19 @@ li {
   font-size: .75rem;
   font-family: 'Space Mono';
   text-align: center;
+  border-radius: 10px;
+  border: 2px solid grey;
+}
+
+.post-box {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  padding: 10px;
+  margin: 25px 18px;
+  font-size: .75rem;
+  font-family: 'Space Mono';
+  text-align: justify;
   border-radius: 10px;
   border: 2px solid grey;
 }
@@ -121,4 +141,14 @@ td {
   padding-right: 10px;
   width: 35px;
   height: 35px;
+}
+
+.intros {
+  font-family: 'Space Mono';
+  text-align: center;
+}
+
+.score {
+  font-family: 'Prompt';
+  color: #6B5035;
 }
