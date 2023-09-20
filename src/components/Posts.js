@@ -25,24 +25,36 @@ class WhatsNew extends Component {
     const { posts } = this.state;
 
     return (
-      <Fragment>
-        <Helmet title="eggModels" />
-        <section className="section">
-          <div>
-            {
-              posts.map((post, idx) => (
-                <div className="card" key={idx}>
-                  <div className="card-content">
-                    <div className="content">
-                      <ReactMarkdown>{post}</ReactMarkdown>
-                    </div>
+      <div className='blog'>
+      <div className='intros'>
+        <h1>eggModels</h1>
+        <h3>Two brothers bringing back FiveThirtyEight models!</h3>
+        <h3>@eugeniogarzag @sebygarza</h3>
+      </div>
+
+      <div className='posts-container'>
+        <div className='post-box'>
+        <Fragment>
+      <Helmet title="eggModels" />
+      <section className="section">
+        <div>
+          {
+            posts.map((post, idx) => (
+              <div className="card" key={idx}>
+                <div className="card-content">
+                  <div className="content">
+                    <ReactMarkdown>{post}</ReactMarkdown>
                   </div>
                 </div>
-              ))
-            }
-          </div>
-        </section>
-      </Fragment>
+              </div>
+            ))
+          }
+        </div>
+      </section>
+    </Fragment>
+        </div>
+      </div>
+    </div>
     );
     /* eslint-enable react/no-array-index-key */
   }
