@@ -31,7 +31,9 @@ const ScheduleNFL = ({ activeTab }) => {
         return null;
       }
 
-        return Math.round(`${spread.toFixed(1)}` * 2) / 2;;
+      else {
+        return Math.round(`${spread.toFixed(1)}` * 2) / 2;
+      } 
     };
 
     return (

@@ -4,17 +4,17 @@ import egglogo from '../logosnfl/egglogo.png'; // Import your JPG logo image
 
 const NavBar = ({ activeTab, setActiveTab }) => {
   return (
-    <nav>
+    <nav className='navigation'>
       <img src={egglogo} alt="Your Logo" className="navbar-logo" />
-      <ul>
+      <ul className='tabs'>
         <li
-          className={activeTab === 'NFL' ? 'active' : ''}
+          className={activeTab === 'NFL' ? 'active' : 'inactive'}
           onClick={() => setActiveTab('NFL')}
         >
           NFL
         </li>
         <li
-          className={activeTab === 'Blog' ? 'active' : ''}
+          className={activeTab === 'Blog' ? 'active' : 'inactive'}
           onClick={() => setActiveTab('Blog')}
         >
           Blog

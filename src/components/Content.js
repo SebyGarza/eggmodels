@@ -1,3 +1,4 @@
+import React from 'react';
 import Posts from './Blog.js'
 import ScheduleNFL from './ScheduleNFL'
 

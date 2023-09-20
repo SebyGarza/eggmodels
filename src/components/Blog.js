@@ -26,35 +26,35 @@ class WhatsNew extends Component {
 
     return (
       <div className='blog'>
-      <div className='intros'>
-        <h1>eggModels</h1>
-        <h3><a href="https://twitter.com/eugenio_garzag" target="_blank" rel="noopener noreferrer">@eugenio_garzag</a> <a href="https://twitter.com/sebygarza" target="_blank" rel="noopener noreferrer">@sebygarza</a></h3>
+        <div className='intros'>
+          <h1>eggModels</h1>
+          <h3><a href="https://twitter.com/eugenio_garzag" target="_blank" rel="noopener noreferrer">@eugenio_garzag</a> <a href="https://twitter.com/sebygarza" target="_blank" rel="noopener noreferrer">@sebygarza</a></h3>
 
-      </div>
+        </div>
 
-      <div className='posts-container'>
-        <div className='post-box'>
-        <Fragment>
-      <Helmet title="eggModels" />
-      <section className="section">
-        <div>
-          {
-            posts.map((post, idx) => (
-              <div className="card" key={idx}>
-                <div className="card-content">
-                  <div className="content">
-                    <ReactMarkdown>{post}</ReactMarkdown>
+        <div className='posts-container'>
+          <div className='post-box'>
+            <Fragment>
+              <Helmet title="eggModels" />
+                <section>
+                  <div>
+                    {
+                      posts.map((post, idx) => (
+                        <div key={idx}>
+                          <div>
+                            <div>
+                              <ReactMarkdown>{post}</ReactMarkdown>
+                            </div>
+                          </div>
+                        </div>
+                      ))
+                    }
                   </div>
-                </div>
-              </div>
-            ))
-          }
-        </div>
-      </section>
-    </Fragment>
+                </section>
+            </Fragment>
+          </div>
         </div>
       </div>
-    </div>
     );
     /* eslint-enable react/no-array-index-key */
   }

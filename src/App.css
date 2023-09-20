@@ -10,7 +10,7 @@
   /* Add additional font formats if needed */
 }
 
-nav, ul {
+.navigation, .tabs {
   background-color: #f2F1f0;
   margin: 0;
   padding: 0;
@@ -21,12 +21,12 @@ nav, ul {
   align-items: center;
 }
 
-nav ul li.active {
-  background-color: #FFAF5D; /* Change to your desired highlight color */
-  color: #6B5035; /* Change to your desired text color */
-  padding: 5px 10px; /* Add padding to make it visually distinct */
-  border-radius: 5px; /* Add rounded corners for style */
-}
+.active {
+  background-color: #FFAF5D; 
+  color: #6B5035; 
+  padding: 5px 10px; 
+  border-radius: 5px; 
+} 
 
 .navbar-logo {
   width: 250px;
@@ -35,14 +35,13 @@ nav ul li.active {
 }
 
 
-li {
+.active, .inactive {
   text-align: center;
   font-family: 'Prompt';
   color: #6B5045;
   display: inline-block;
   margin: 20px;
   cursor: pointer;
-
 }
 
 .week-selector {
@@ -64,14 +63,26 @@ li {
 
 /* Grid */
 
-.games-container {
+.posts-container {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
   justify-content: space-evenly;
 }
 
-.posts-container {
+.post-box {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  padding: 10px;
+  margin: 25px 18px;
+  font-family: 'Space Mono';
+  text-align: justify;
+  border-radius: 10px;
+  border: 2px solid grey;
+}
+
+.games-container {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
@@ -89,19 +100,6 @@ li {
   font-size: .75rem;
   font-family: 'Space Mono';
   text-align: center;
-  border-radius: 10px;
-  border: 2px solid grey;
-}
-
-.post-box {
-  display: flex;
-  flex-direction: column;
-  width: 1000px;
-  padding: 10px;
-  margin: 25px 18px;
-  font-size: .75rem;
-  font-family: 'Space Mono';
-  text-align: justify;
   border-radius: 10px;
   border: 2px solid grey;
 }
@@ -157,4 +155,11 @@ a:hover,
 a:visited,
 a:active {
     color: #0077cc; /* Set the same color for hover, visited, and active states */
+}
+
+pre {
+  background: lightgray;
+  border-radius: 10px;
+  padding: 10px;
+
 }
