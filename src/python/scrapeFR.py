@@ -98,8 +98,8 @@ def scheduleScraper():
             # Create a Pandas DataFrame from the collected data
             df = pd.DataFrame(schedule_data)
             # Serialize the collected data as a JSON file
-            with open("nfl_schedule.json", "w") as json_file:
-                json.dump(schedule_data, json_file, indent=2)
+            # with open("nfl_schedule.json", "w") as json_file:
+            #     json.dump(schedule_data, json_file, indent=2)
 
         else:
             print("Schedule table not found on the page.")

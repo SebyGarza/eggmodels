@@ -1,4 +1,4 @@
-import Posts from './Posts.js'
+import Posts from './Blog.js'
 import ScheduleNFL from './ScheduleNFL'
 
 const Content = ({ activeTab }) => {

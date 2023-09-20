@@ -152,3 +152,9 @@ td {
   font-family: 'Prompt';
   color: #6B5035;
 }
+
+a:hover,
+a:visited,
+a:active {
+    color: #0077cc; /* Set the same color for hover, visited, and active states */
+}

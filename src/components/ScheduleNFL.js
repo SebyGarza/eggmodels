@@ -4,7 +4,7 @@ import '../App.css';
 
 const ScheduleNFL = ({ activeTab }) => {
     const [scheduleData, setScheduleData] = useState([]);
-    const [selectedWeek, setSelectedWeek] = useState('2');
+    const [selectedWeek, setSelectedWeek] = useState(3);
 
     useEffect(() => {
         // Use the imported JSON data directly
@@ -12,37 +12,45 @@ const ScheduleNFL = ({ activeTab }) => {
     }, [activeTab]);
 
     const handleWeekChange = (event) => {
-        setSelectedWeek(event.target.value);
+        setSelectedWeek(parseInt(event.target.value));
     };
 
     const uniqueWeeks = Array.from(new Set(scheduleData.map((game) => game.Week)))
-    .filter((week) => week !== 'Week' && parseInt(week) >= 1);
+      .filter((week) => week !== 'Week' && parseInt(week) >= 1);
 
     // Function to calculate and format the win probability
     const calculateWinProbability = (prob) => {
+        if (prob == null) {
+          return null
+        }
         return `${(prob * 100).toFixed(2)}%`;
     };
 
     const rounding = (spread) => {
-        return `${spread.toFixed(2)}`;
+      if (spread == null) {
+        return null;
+      }
+
+        return Math.round(`${spread.toFixed(1)}` * 2) / 2;;
     };
 
     return (
         <div className="nfl-schedule">
         <div className="week-selector">
-          <label>Week 2</label> 
-          {/* <select onChange={handleWeekChange} value={selectedWeek}>
+          <label>Week</label> 
+          {<select onChange={handleWeekChange} value={selectedWeek}>
             {uniqueWeeks.map((week, index) => (
               <option key={index} value={week}>
                 {week}
               </option>
             ))}
-          </select> */}
+          </select>}
         </div>
 
         <div className="games-container">
+          {console.log(selectedWeek)}
         {scheduleData
-            .filter((game) => game.Week === 2) // Change 2 to selectedWeek variable
+            .filter((game) => game.Week === selectedWeek) // Change 2 to selectedWeek variable
             .map((game, index) => (
               <div key={index} className="game-box">
                 <table className="game-table">
