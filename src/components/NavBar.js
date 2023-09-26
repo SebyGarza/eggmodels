@@ -1,4 +1,3 @@
-// src/components/NavBar.js
 import React from 'react';
 import egglogo from '../logosnfl/egglogo.png'; // Import your JPG logo image
 
@@ -6,7 +5,7 @@ const NavBar = ({ activeTab, setActiveTab }) => {
   return (
     <nav className='navigation'>
       <img src={egglogo} alt="Your Logo" className="navbar-logo" />
-      <ul className='tabs'>
+      <ul>
         <li
           className={activeTab === 'NFL' ? 'active' : 'inactive'}
           onClick={() => setActiveTab('NFL')}
@@ -18,6 +17,13 @@ const NavBar = ({ activeTab, setActiveTab }) => {
           onClick={() => setActiveTab('Blog')}
         >
           Blog
+        </li>
+
+        <li
+          className={activeTab === 'Parlay' ? 'active' : 'inactive'}
+          onClick={() => setActiveTab('Parlay')}
+        >
+          Parlay Calculator
         </li>
       </ul>
     </nav>

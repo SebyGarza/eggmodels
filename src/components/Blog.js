@@ -37,19 +37,13 @@ class WhatsNew extends Component {
             <Fragment>
               <Helmet title="eggModels" />
                 <section>
-                  <div>
                     {
                       posts.map((post, idx) => (
                         <div key={idx}>
-                          <div>
-                            <div>
-                              <ReactMarkdown>{post}</ReactMarkdown>
-                            </div>
-                          </div>
+                          <ReactMarkdown>{post}</ReactMarkdown>
                         </div>
                       ))
                     }
-                  </div>
                 </section>
             </Fragment>
           </div>

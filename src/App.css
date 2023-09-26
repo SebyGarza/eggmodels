@@ -10,54 +10,58 @@
   /* Add additional font formats if needed */
 }
 
-.navigation, .tabs {
-  background-color: #f2F1f0;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
+.navigation {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  background-color: #f2F1f0;
+  max-width: 100%;
 }
 
 .active {
   background-color: #FFAF5D; 
-  color: #6B5035; 
-  padding: 5px 10px; 
   border-radius: 5px; 
 } 
 
-.navbar-logo {
-  width: 250px;
-  height: 100px;
-  padding: 10px;
-}
-
-
 .active, .inactive {
-  text-align: center;
+  
   font-family: 'Prompt';
   color: #6B5045;
   display: inline-block;
-  margin: 20px;
+  margin: 10px;
   cursor: pointer;
+  padding: 5px 10px; 
+  
+
 }
+
+ul {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar-logo {
+  max-width: 150px;
+  margin: 20px;
+  justify-content: center;
+}
+
+/* Selector  */
+
 
 .week-selector {
   display: flex;
-  padding: 20px;
   font-weight: bold;
   justify-content: center;
   align-items: center;
   font-size: 30px;
   font-family: 'Prompt';
   color: #6B5045;
+  margin-top: 10px;
   
-}
-
-.week-selector label {
-  margin-right: 10px;
 }
 
 
@@ -71,15 +75,15 @@
 }
 
 .post-box {
-  display: flex;
-  flex-direction: column;
-  width: 1000px;
-  padding: 10px;
-  margin: 25px 18px;
-  font-family: 'Space Mono';
-  text-align: justify;
+  width: 80%;
+  text-align: left;
   border-radius: 10px;
   border: 2px solid grey;
+  font-family: 'Space Mono';
+  padding: 5%;
+  margin-bottom: 5%;
+
+
 }
 
 .games-container {
@@ -89,7 +93,6 @@
   justify-content: space-evenly;
 }
 
-/* Set a fixed width for the game boxes */
 .game-box {
   display: flex;
   flex-direction: column;
@@ -99,7 +102,6 @@
   margin: 25px 18px;
   font-size: .75rem;
   font-family: 'Space Mono';
-  text-align: center;
   border-radius: 10px;
   border: 2px solid grey;
 }
@@ -109,7 +111,7 @@
 
   text-align: left;
   font-family: 'Space Mono';
-  font-size: medium;
+  font-size: 14.5px;
   
   height: 100%;
   width: 100%;
@@ -121,6 +123,7 @@ th {
   background-color: #FFAF5D;
   border-radius: 10px;
   text-align: center;
+  font-size: 95%;
 }
 
 td {
@@ -160,6 +163,10 @@ a:active {
 pre {
   background: lightgray;
   border-radius: 10px;
-  padding: 10px;
+  padding: 5%;
+  overflow: scroll;
+}
 
+p {
+  overflow: scroll;
 }

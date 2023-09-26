@@ -38,57 +38,58 @@ const ScheduleNFL = ({ activeTab }) => {
 
     return (
         <div className="nfl-schedule">
-        <div className="week-selector">
-          <label>Week</label> 
-          {<select onChange={handleWeekChange} value={selectedWeek}>
-            {uniqueWeeks.map((week, index) => (
-              <option key={index} value={week}>
-                {week}
-              </option>
-            ))}
-          </select>}
-        </div>
+          <div className="week-selector">
+            <label>Week&nbsp;</label> 
+            {<select onChange={handleWeekChange} value={selectedWeek}>
+              {uniqueWeeks.map((week, index) => (
+                <option key={index} value={week}>
+                  {week}
+                </option>
+              ))}
+            </select>}
+            <label>&nbsp;Projections</label> 
+          </div>
 
-        <div className="games-container">
-          {console.log(selectedWeek)}
-        {scheduleData
-            .filter((game) => game.Week === selectedWeek) // Change 2 to selectedWeek variable
-            .map((game, index) => (
-              <div key={index} className="game-box">
-                <table className="game-table">
-                  <tr>
-                    <th>Teams</th>
-                    <th>Win Prob.</th>
-                    <th>EloSpread</th>
-                    <th>Score</th>
-                  </tr>
-                    
-                  <tr>
-                    <td className='team-name'>
-                      <img className='team-logo' src={require(`../logosnfl/${game.Away}.png`)} alt={`${game.Away} Logo`} />
-                      {game.Away} 
-                    </td>
-                    <td>{calculateWinProbability(game.probA)}</td>
-                    <td></td>
-                    <td className='score'>{game.ScoreA}</td>
-                  </tr>
+          <div className="games-container">
+            {console.log(selectedWeek)}
+          {scheduleData
+              .filter((game) => game.Week === selectedWeek) // Change 2 to selectedWeek variable
+              .map((game, index) => (
+                <div key={index} className="game-box">
+                  <table className="game-table">
+                    <tr>
+                      <th>Teams</th>
+                      <th>Win%</th>
+                      <th>Spread</th>
+                      <th>Score</th>
+                    </tr>
+                      
+                    <tr>
+                      <td className='team-name'>
+                        <img className='team-logo' src={require(`../logosnfl/${game.Away}.png`)} alt={`${game.Away} Logo`} />
+                        {game.Away} 
+                      </td>
+                      <td>{calculateWinProbability(game.probA)}</td>
+                      <td></td>
+                      <td className='score'>{game.ScoreA}</td>
+                    </tr>
 
-                  <tr>
-                    <td className='team-name'>
-                    <img className='team-logo' src={require(`../logosnfl/${game.Home}.png`)} alt={`${game.Home} Logo`} />
-                      {game.Home}
-                    </td>
-                    <td>{calculateWinProbability(game.probH)}</td>
-                    <td>{rounding(game.eloSpread)}</td>
-                    <td className='score'>{game.ScoreH}</td>
-                  </tr>
+                    <tr>
+                      <td className='team-name'>
+                      <img className='team-logo' src={require(`../logosnfl/${game.Home}.png`)} alt={`${game.Home} Logo`} />
+                        {game.Home}
+                      </td>
+                      <td>{calculateWinProbability(game.probH)}</td>
+                      <td>{rounding(game.eloSpread)}</td>
+                      <td className='score'>{game.ScoreH}</td>
+                    </tr>
 
-                </table>
-                
-              </div>
-            ))
-          }
-        </div>
+                  </table>
+                  
+                </div>
+              ))
+            }
+          </div>
       </div>
     )
 }
