@@ -23,7 +23,13 @@ const NavBar = ({ activeTab, setActiveTab }) => {
           className={activeTab === 'Parlay' ? 'active' : 'inactive'}
           onClick={() => setActiveTab('Parlay')}
         >
-          Parlay Calculator
+          Parlay
+        </li>
+        <li
+          className={activeTab === 'Rankings' ? 'active' : 'inactive'}
+          onClick={() => setActiveTab('Rankings')}
+        >
+          Rankings
         </li>
       </ul>
     </nav>

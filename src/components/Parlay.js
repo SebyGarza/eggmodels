@@ -4,7 +4,7 @@ import nflScheduleData from '../python/nflModel.json';
 
 const Parlay = ({ activeTab }) => {
     const [selectedWinners, setSelectedWinners] = useState([]);
-    const [week, setWeek] = useState(3); // Set the default week to 3, you can change it as needed.
+    const [week, setWeek] = useState(4); // Set the default week to 3, you can change it as needed.
 
     // Function to handle winner selection for a game
     // Function to handle winner selection for a game
@@ -42,7 +42,14 @@ const Parlay = ({ activeTab }) => {
             odds = -(odds * 100) / (1 - odds);
         }
 
-        return Math.round(odds);
+        const sign = odds >= 0 ? '+' : '-';
+
+        if (sign === '-') {
+            return Math.round(odds);
+        }
+
+        return `${sign}` + Math.round(odds);
+        
     };
 
     // Add an effect to recalculate odds when selectedWinners or week changes
@@ -61,7 +68,7 @@ const Parlay = ({ activeTab }) => {
                 value={week}
                 onChange={(e) => setWeek(Number(e.target.value))}
             >
-                {Array.from({ length: 3 }, (_, i) => (
+                {Array.from({ length: 4 }, (_, i) => (
                     <option key={i} value={i + 1}>
                         Week {i + 1}
                     </option>

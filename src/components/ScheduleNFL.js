@@ -4,7 +4,7 @@ import '../App.css';
 
 const ScheduleNFL = ({ activeTab }) => {
     const [scheduleData, setScheduleData] = useState([]);
-    const [selectedWeek, setSelectedWeek] = useState(3);
+    const [selectedWeek, setSelectedWeek] = useState(4);
 
     useEffect(() => {
         // Use the imported JSON data directly
@@ -29,12 +29,17 @@ const ScheduleNFL = ({ activeTab }) => {
     const rounding = (spread) => {
       if (spread == null) {
         return null;
+      } else {
+        // Round the spread
+        const roundedSpread = Math.round(Math.abs(spread) * 2) / 2;
+    
+        // Determine the sign (plus or minus)
+        const sign = spread >= 0 ? '+' : '-';
+    
+        // Combine the sign and the rounded spread
+        return `${sign}${roundedSpread}`;
       }
-
-      else {
-        return Math.round(`${spread.toFixed(1)}` * 2) / 2;
-      } 
-    };
+    };    
 
     return (
         <div className="nfl-schedule">
@@ -51,8 +56,7 @@ const ScheduleNFL = ({ activeTab }) => {
           </div>
 
           <div className="games-container">
-            {console.log(selectedWeek)}
-          {scheduleData
+            {scheduleData
               .filter((game) => game.Week === selectedWeek) // Change 2 to selectedWeek variable
               .map((game, index) => (
                 <div key={index} className="game-box">

@@ -2,6 +2,7 @@ import React from 'react';
 import Posts from './Blog.js'
 import ScheduleNFL from './ScheduleNFL'
 import Parlay from './Parlay';
+import Rankings from './Rankings.js';
 
 const Content = ({ activeTab }) => {
   if (activeTab === 'Blog') {
@@ -19,6 +20,12 @@ const Content = ({ activeTab }) => {
   if (activeTab === 'Parlay') {
     return (
       <Parlay />
+    );
+  }
+
+  if (activeTab === 'Rankings') {
+    return (
+      <Rankings />
     );
   }
 
