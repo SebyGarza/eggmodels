@@ -2,4 +2,6 @@
     font-family: 'Prompt';
     text-align: center;
     color: #6B5045;
+    margin: 0;
+    max-height: 1500px;
 }

@@ -101,12 +101,14 @@ const Rankings = () => {
       <Line
         data={teamEloData}
         options={{
+          maintainAspectRatio: false,
           scales: {
             x: {
               grid: {
                 color: 'grey',
               },
               beginAtZero: true,
+              max: 'Week 18',
               ticks: {
                 color: 'black',
               },
