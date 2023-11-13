@@ -119,7 +119,7 @@ const Rankings = () => {
                 color: 'grey',
               },
               min: 1325, // Set the minimum value for the y-axis
-              max: 1700, // Set the maximum value for the y-axis
+              max: 1725, // Set the maximum value for the y-axis
               ticks: {
                 color: 'black',
                 stepSize: 25, // Set the step size for y-axis intervals to 25

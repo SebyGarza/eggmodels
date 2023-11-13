@@ -38,12 +38,12 @@ def update_elo_ratings(homeElo, awayElo, homePointDiff):
 
 def update_win_prob(df):
     for index, row in df.iterrows():
-    # Check if ElopreH is not empty (assuming ElopreH is a numeric column)
-        if not pd.isnull(row['ElopreH']):
+        # Check if ElopreH and ElopreA are not None
+        if not pd.isnull(row['ElopreH']) and not pd.isnull(row['ElopreA']):
             # Calculate probH and probA using the eloWinProb function
             home_team = row['ElopreH']
             away_team = row['ElopreA']
-            expected1, expected2 = eloWinProb(home_team, away_team)  # Replace with your eloWinProb function
+            expected1, expected2 = eloWinProb(home_team, away_team)
 
             # Update the DataFrame with the calculated values
             df.at[index, 'probH'] = expected1
@@ -67,44 +67,42 @@ def update_post_elos(df):
     return df
 
 def transfer_post_to_pre(df, followingWeek):
-    ## Initialize an empty dictionary to store team Elo ratings
-    team_elo_ratings = {}
+    # Initialize a dictionary to store the latest team Elo ratings
+    team_latest_elo = {}
 
-    # Iterate through the rows of the DataFrame
+    # Iterate through the rows of the DataFrame for the current week
     for index, row in df.iterrows():
-        if row['Week'] == followingWeek - 1:  # Check if the Week column is equal to 1
+        if row['Week'] == followingWeek - 2:  # Check if the Week column is equal to the previous week
             home_team = row['Home']
             away_team = row['Away']
             elo_post_h = row['ElopostH']
             elo_post_a = row['ElopostA']
-            
-            # Update or add home team Elo rating to the dictionary
-            if home_team in team_elo_ratings:
-                team_elo_ratings[home_team].append(elo_post_h)
-            else:
-                team_elo_ratings[home_team] = [elo_post_h]
-            
-            # Update or add away team Elo rating to the dictionary
-            if away_team in team_elo_ratings:
-                team_elo_ratings[away_team].append(elo_post_a)
-            else:
-                team_elo_ratings[away_team] = [elo_post_a]
 
-    # At this point, team_elo_ratings contains Elo ratings for each team where Week is equal to 1
+            # Update the latest Elo ratings for home and away teams
+            team_latest_elo[home_team] = elo_post_h
+            team_latest_elo[away_team] = elo_post_a
+        
+        if row['Week'] == followingWeek - 1:  # Check if the Week column is equal to the previous week
+            home_team = row['Home']
+            away_team = row['Away']
+            elo_post_h = row['ElopostH']
+            elo_post_a = row['ElopostA']
 
-    # Assume you have already populated the team_elo_ratings dictionary as described earlier
+            # Update the latest Elo ratings for home and away teams
+            team_latest_elo[home_team] = elo_post_h
+            team_latest_elo[away_team] = elo_post_a
 
-    # Iterate through the rows of the DataFrame for week "2"
+    # Iterate through the rows of the DataFrame for the following week
     for index, row in df.iterrows():
         if row['Week'] == followingWeek:
             home_team = row['Home']
             away_team = row['Away']
-            
-            # Check if the teams exist in the Elo ratings dictionary
-            if home_team in team_elo_ratings:
-                df.at[index, 'ElopreH'] = team_elo_ratings[home_team][-1]  # Use the latest Elo rating
-            if away_team in team_elo_ratings:
-                df.at[index, 'ElopreA'] = team_elo_ratings[away_team][-1]  # Use the latest Elo rating
+
+            # Get the latest Elo rating for the home team
+            df.at[index, 'ElopreH'] = team_latest_elo.get(home_team)
+
+            # Get the latest Elo rating for the away team
+            df.at[index, 'ElopreA'] = team_latest_elo.get(away_team)
 
     return df
 

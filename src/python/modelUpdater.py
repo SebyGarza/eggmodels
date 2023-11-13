@@ -6,7 +6,8 @@ nflModel = scheduleScraper()
 nflModel = eloInit(nflModel)
 nflModel = update_win_prob(nflModel)
 
-currentWeek = 6
+currentWeek = 11
+
 for i in range(1, currentWeek):
     nflModel = update_post_elos(nflModel)
     nflModel = transfer_post_to_pre(nflModel, i + 1)
