@@ -6,7 +6,7 @@ nflModel = scheduleScraper()
 nflModel = eloInit(nflModel)
 nflModel = update_win_prob(nflModel)
 
-currentWeek = 11
+currentWeek = 15
 
 for i in range(1, currentWeek):
     nflModel = update_post_elos(nflModel)
@@ -15,7 +15,7 @@ for i in range(1, currentWeek):
     
 nflModel = update_home_elo_spread(nflModel)
 
-directory_path = "/Users/sebygarza/portfolio/eggmodels/src/python"
+directory_path = "/Users/sebygarza/documents/portfolio/eggmodels/src/python"
 
 # Convert the DataFrame to JSON
 json_data = nflModel.to_json(orient='records')

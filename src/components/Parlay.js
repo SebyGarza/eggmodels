@@ -4,7 +4,7 @@ import nflScheduleData from '../python/nflModel.json';
 
 const Parlay = ({ activeTab }) => {
     const [selectedWinners, setSelectedWinners] = useState([]);
-    const [week, setWeek] = useState(11); // Set the default week to 3, you can change it as needed.
+    const [week, setWeek] = useState(15); // Set the default week to 3, you can change it as needed.
 
     // Function to handle winner selection for a game
     // Function to handle winner selection for a game
@@ -68,7 +68,7 @@ const Parlay = ({ activeTab }) => {
                 value={week}
                 onChange={(e) => setWeek(Number(e.target.value))}
             >
-                {Array.from({ length: 11 }, (_, i) => (
+                {Array.from({ length: week }, (_, i) => (
                     <option key={i} value={i + 1}>
                         Week {i + 1}
                     </option>
