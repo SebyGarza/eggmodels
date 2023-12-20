@@ -25,3 +25,8 @@ file_path = os.path.join(directory_path, 'nflModel.json')
 # Save the JSON data to a file
 with open(file_path, 'w') as file:
     file.write(json_data)
+
+## Postseason model
+    
+# for i in range(currentWeek, 18):
+    
