@@ -3,6 +3,7 @@ import Posts from './Blog.js'
 import ScheduleNFL from './ScheduleNFL'
 import Parlay from './Parlay';
 import Rankings from './Rankings.js';
+import Playoffs from './Playoffs.js';
 
 const Content = ({ activeTab }) => {
   if (activeTab === 'Blog') {
@@ -26,6 +27,12 @@ const Content = ({ activeTab }) => {
   if (activeTab === 'Rankings') {
     return (
       <Rankings />
+    );
+  }
+
+  if (activeTab === 'Playoffs') {
+    return (
+      <Playoffs />
     );
   }
 

@@ -31,6 +31,12 @@ const NavBar = ({ activeTab, setActiveTab }) => {
         >
           Rankings
         </li>
+        <li
+          className={activeTab === 'Playoffs' ? 'active' : 'inactive'}
+          onClick={() => setActiveTab('Playoffs')}
+        >
+          Playoffs
+        </li>
       </ul>
     </nav>
   );

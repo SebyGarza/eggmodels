@@ -4,10 +4,8 @@ import nflScheduleData from '../python/nflModel.json';
 
 const Parlay = ({ activeTab }) => {
     const [selectedWinners, setSelectedWinners] = useState([]);
-    const [week, setWeek] = useState(15); // Set the default week to 3, you can change it as needed.
+    const [week, setWeek] = useState(16); // Set the specific week you want to display.
 
-    // Function to handle winner selection for a game
-    // Function to handle winner selection for a game
     const handleWinnerSelection = (gameId, team, index) => {
         setSelectedWinners((prevSelectedWinners) => {
             const updatedWinners = [...prevSelectedWinners];
@@ -34,11 +32,9 @@ const Parlay = ({ activeTab }) => {
 
         if (odds <= 0.5) {
             odds = (100 / odds) - 100;
-        }
-        else if (odds === 1) {
-            return null
-        }
-        else {
+        } else if (odds === 1) {
+            return null;
+        } else {
             odds = -(odds * 100) / (1 - odds);
         }
 
@@ -49,97 +45,75 @@ const Parlay = ({ activeTab }) => {
         }
 
         return `${sign}` + Math.round(odds);
-        
     };
 
-    // Add an effect to recalculate odds when selectedWinners or week changes
     useEffect(() => {
-        // Call calculateParleyOdds to recalculate odds when selectedWinners or week changes
         const odds = calculateParlayOdds();
-        // Update the odds in your application as needed (e.g., send it to a server or update a state variable).
-        // For now, we'll just log it.
         console.log(odds);
     }, [selectedWinners, week]);
 
     return (
         <div className='parley'>
-            <h1></h1>
-            <select
-                value={week}
-                onChange={(e) => setWeek(Number(e.target.value))}
-            >
-                {Array.from({ length: week }, (_, i) => (
-                    <option key={i} value={i + 1}>
-                        Week {i + 1}
-                    </option>
-                ))}
-            </select>
-
+            <h1>Week {week}</h1>
             <h3>Selected Winners:</h3>
-
             <ul className='selected-winners'>
                 {selectedWinners
-                    .filter(selection => selection) // Filter out null or undefined entries
+                    .filter(selection => selection)
                     .map((selection, index) => (
                         <li key={index}>
                             {selection.team}
                         </li>
                     ))}
             </ul>
-
-
             <h3>Fair Odds: {calculateParlayOdds()}</h3>
-
-
             <div className='parley-container'>
-            <table className="games-table">
-                {nflScheduleData
-                    .filter((game) => game.Week === week)
-                    .map((game, index) => (
-                    <tr key={index}>
-                        <td className="left-column">
-                        <input
-                            type="checkbox"
-                            value={game.Away}
-                            onChange={() => handleWinnerSelection(game.id, game.Away, index)}
-                            checked={
-                            selectedWinners[index] &&
-                            selectedWinners[index].gameId === game.id &&
-                            selectedWinners[index].team === game.Away
-                            }
-                        />
-                        <img
-                            className="team-logo"
-                            src={require(`../logosnfl/${game.Away}.png`)}
-                            alt={`${game.Away} Logo`}
-                        />
-                        {game.Away}
-                        </td>
-                        <td className="separator">@</td>
-                        <td className="right-column">
-                        <img
-                            className="team-logo"
-                            src={require(`../logosnfl/${game.Home}.png`)}
-                            alt={`${game.Home} Logo`}
-                        />
-                        {game.Home}
-                        <input
-                            type="checkbox"
-                            value={game.Home}
-                            onChange={() => handleWinnerSelection(game.id, game.Home, index)}
-                            checked={
-                            selectedWinners[index] &&
-                            selectedWinners[index].gameId === game.id &&
-                            selectedWinners[index].team === game.Home
-                            }
-                        />
-                        </td>
-                    </tr>
-                    ))}
+                <table className="games-table">
+                    {nflScheduleData
+                        .filter((game) => game.Week === week)
+                        .map((game, index) => (
+                            <tr key={index}>
+                                <td className="left-column">
+                                    <input
+                                        type="checkbox"
+                                        value={game.Away}
+                                        onChange={() => handleWinnerSelection(game.id, game.Away, index)}
+                                        checked={
+                                            selectedWinners[index] &&
+                                            selectedWinners[index].gameId === game.id &&
+                                            selectedWinners[index].team === game.Away
+                                        }
+                                    />
+                                    <img
+                                        className="team-logo"
+                                        src={require(`../logosnfl/${game.Away}.png`)}
+                                        alt={`${game.Away} Logo`}
+                                    />
+                                    {game.Away}
+                                </td>
+                                <td className="separator">@</td>
+                                <td className="right-column">
+                                    <img
+                                        className="team-logo"
+                                        src={require(`../logosnfl/${game.Home}.png`)}
+                                        alt={`${game.Home} Logo`}
+                                    />
+                                    {game.Home}
+                                    <input
+                                        type="checkbox"
+                                        value={game.Home}
+                                        onChange={() => handleWinnerSelection(game.id, game.Home, index)}
+                                        checked={
+                                            selectedWinners[index] &&
+                                            selectedWinners[index].gameId === game.id &&
+                                            selectedWinners[index].team === game.Home
+                                        }
+                                    />
+                                </td>
+                            </tr>
+                        ))}
                 </table>
-                </div>
-
             </div>
+        </div>
     );
 };
 

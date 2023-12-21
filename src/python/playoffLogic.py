@@ -119,11 +119,4 @@ def select_playoff_teams(team_records, game_data):
 
     return afc_playoff_teams, nfc_playoff_teams
 
-# Main execution
-file_path = 'src/python/nflModel.json'
-data = load_game_data(file_path)
-results = compute_team_records(data)
-print(results)
-afc_playoffs, nfc_playoffs = select_playoff_teams(results, data)
-print("AFC Playoff Teams:", afc_playoffs)
-print("NFC Playoff Teams:", nfc_playoffs)
+    
