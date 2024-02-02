@@ -108,7 +108,7 @@ const Rankings = () => {
                 color: 'grey',
               },
               beginAtZero: true,
-              max: 'Week 18',
+              max: 'Week 22',
               ticks: {
                 color: 'black',
               },

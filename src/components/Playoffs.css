@@ -27,11 +27,11 @@
   }
   
   .playoffs-side.afc {
-    background-color: #f0f0f0; /* Background color for AFC side */
+    background-color: white; /* Background color for AFC side */
   }
   
   .playoffs-side.nfc {
-    background-color: #e0e0e0; /* Background color for NFC side */
+    background-color: white; /* Background color for NFC side */
   }
   
   .matchup {

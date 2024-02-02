@@ -8,15 +8,13 @@ import playoffsJSON from '/Users/sebygarza/Documents/portfolio/eggmodels/src/pyt
 const playoffsData = [
     { side: "AFC", rounds: [
         { round: "Wild Card", matchups: [{ team1: playoffsJSON.AFC[2], team2: playoffsJSON.AFC[3] }, { team1: playoffsJSON.AFC[4], team2: playoffsJSON.AFC[5] }, { team1: playoffsJSON.AFC[6], team2: playoffsJSON.AFC[1] }] },
-        { round: "Divisional", matchups: [{ team1: playoffsJSON.AFC[0], team2: "Winner C/D" }] },
-        { round: "Conference", matchups: [{ team1: "Winner AB/C/D", team2: "Team E" }] },
-        { round: "Super Bowl", matchups: [{ team1: "Winner ABCD/E", team2: "Team F" }] },
+        { round: "Divisional", matchups: [{ team1: playoffsJSON.AFC[0], team2: "" }] },
+        { round: "AFC Championship", matchups: [{ team1: "", team2: "" }] },
     ] },
     { side: "NFC", rounds: [
         { round: "Wild Card", matchups: [{ team1: playoffsJSON.NFC[2], team2: playoffsJSON.NFC[3] }, { team1: playoffsJSON.NFC[4], team2: playoffsJSON.NFC[5] }, { team1: playoffsJSON.NFC[6], team2: playoffsJSON.NFC[1] }] },
-        { round: "Divisional", matchups: [{ team1: playoffsJSON.NFC[0], team2: "Winner I/J" }] },
-        { round: "Conference", matchups: [{ team1: "Winner GH/I/J", team2: "Team K" }] },
-        { round: "Super Bowl", matchups: [{ team1: "Winner GHIJ/K", team2: "Team L" }] },
+        { round: "Divisional", matchups: [{ team1: playoffsJSON.NFC[0], team2: "" }] },
+        { round: "NFC Championship", matchups: [{ team1: "", team2: "" }] },
     ] },
 ];
 

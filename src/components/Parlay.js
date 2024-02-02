@@ -4,7 +4,7 @@ import nflScheduleData from '../python/nflModel.json';
 
 const Parlay = ({ activeTab }) => {
     const [selectedWinners, setSelectedWinners] = useState([]);
-    const [week, setWeek] = useState(16); // Set the specific week you want to display.
+    const [week, setWeek] = useState(22); // Set the specific week you want to display.
 
     const handleWinnerSelection = (gameId, team, index) => {
         setSelectedWinners((prevSelectedWinners) => {

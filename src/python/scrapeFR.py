@@ -44,6 +44,16 @@ def scheduleScraper():
                 columns = row.find_all(["th", "td"])
                 if len(columns) >= 7:  # Ensure there are enough columns for the data you need
                     week = columns[0].text.strip()
+                    if week == 'WildCard':
+                        week = 19
+                    if week == 'Division':
+                        week = 20
+                    if week == 'ConfChamp':
+                        week = 21
+                    if week == 'SuperBowl':
+                        week = 22
+                    if week == '':
+                        week = 0
                     if week != "Week":  # Exclude rows where Week is "Week"
                         day = columns[1].text.strip()
                         date = columns[2].text.strip()

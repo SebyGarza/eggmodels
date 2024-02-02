@@ -1,20 +1,20 @@
 {
   "AFC": [
     "Ravens",
-    "Dolphins",
     "Chiefs",
+    "Bills",
     "Texans",
     "Browns",
-    "Bengals",
-    "Bills"
+    "Dolphins",
+    "Steelers"
   ],
   "NFC": [
     "49ers",
     "Lions",
-    "Eagles",
-    "Saints",
     "Cowboys",
-    "Seahawks",
-    "Vikings"
+    "Buccaneers",
+    "Eagles",
+    "Rams",
+    "Packers"
   ]
 }
