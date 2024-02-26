@@ -108,8 +108,13 @@ const Rankings = () => {
                 color: 'grey',
               },
               beginAtZero: true,
-              max: 'Week 22',
+              autoSkip: false, // Prevent Chart.js from automatically skipping labels
+              maxTicksLimit: 22, // Set a limit to the maximum number of ticks on the x-axis
               ticks: {
+                callback: function(val, index) {
+                  // Return a label for every tick, ensuring week 10 is included
+                  return `Week ${index + 1}`;
+                },
                 color: 'black',
               },
             },
@@ -118,11 +123,11 @@ const Rankings = () => {
               grid: {
                 color: 'grey',
               },
-              min: 1275, // Set the minimum value for the y-axis
-              max: 1775, // Set the maximum value for the y-axis
+              min: 1275,
+              max: 1775,
               ticks: {
                 color: 'black',
-                stepSize: 25, // Set the step size for y-axis intervals to 25
+                stepSize: 25,
               },
             },
           },
@@ -130,14 +135,14 @@ const Rankings = () => {
             legend: {
               display: true,
               labels: {
-                    font: {
-                        size: 14,
-                        family: 'Space Mono',
-                        color: '#000',
-                    }
-                }
-            }
-        }
+                font: {
+                  size: 14,
+                  family: 'Space Mono',
+                  color: '#000',
+                },
+              },
+            },
+          },
         }}
       />
     </div>
