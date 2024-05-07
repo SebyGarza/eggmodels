@@ -52,7 +52,7 @@ ul {
 /* Selector  */
 
 
-.week-selector {
+.week-selector, .month-selector {
   display: flex;
   font-weight: bold;
   justify-content: center;
@@ -169,4 +169,10 @@ pre {
 
 p {
   overflow: scroll;
+}
+
+.game-date {
+  font-family: 'Space Mono';
+  text-align: center;
+
 }
