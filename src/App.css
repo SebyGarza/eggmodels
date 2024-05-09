@@ -176,3 +176,13 @@ p {
   text-align: center;
 
 }
+
+.mlb-schedule {
+  padding: 10px;
+}
+
+.month-display {
+  display: flex; /* Makes the container a flex container */
+  flex-direction: column; /* Stacks the flex items vertically */
+  align-items: center; /* Centers children vertically in the container */
+}
