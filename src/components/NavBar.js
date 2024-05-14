@@ -11,6 +11,26 @@ const NavBar = ({ activeTab, setActiveTab }) => {
           onClick={() => setActiveTab('NFL')}
         >
           NFL
+          <ul className='dropdown'>
+            <li
+              className={activeTab === 'Parlay' ? 'active' : 'inactive'}
+              onClick={(event) => {
+                event.stopPropagation();
+                setActiveTab('Parlay');
+              }}
+            >
+              Parlay
+            </li>
+            <li
+              className={activeTab === 'Rankings' ? 'active' : 'inactive'}
+              onClick={(event) => {
+                event.stopPropagation();
+                setActiveTab('Rankings');
+              }}
+            >
+              Rankings
+            </li>
+          </ul>
         </li>
         <li
           className={activeTab === 'MLB' ? 'active' : 'inactive'}
@@ -23,19 +43,6 @@ const NavBar = ({ activeTab, setActiveTab }) => {
           onClick={() => setActiveTab('Blog')}
         >
           Blog
-        </li>
-
-        <li
-          className={activeTab === 'Parlay' ? 'active' : 'inactive'}
-          onClick={() => setActiveTab('Parlay')}
-        >
-          Parlay
-        </li>
-        <li
-          className={activeTab === 'Rankings' ? 'active' : 'inactive'}
-          onClick={() => setActiveTab('Rankings')}
-        >
-          Rankings
         </li>
       </ul>
     </nav>

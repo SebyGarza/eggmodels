@@ -25,15 +25,12 @@
 } 
 
 .active, .inactive {
-  
   font-family: 'Prompt';
   color: #6B5045;
   display: inline-block;
   margin: 10px;
   cursor: pointer;
   padding: 5px 10px; 
-  
-
 }
 
 ul {
@@ -43,15 +40,48 @@ ul {
   margin: 0px;
 }
 
+li {
+  position: relative; /* Needed for the dropdown */
+}
+
 .navbar-logo {
   max-width: 150px;
   margin: 20px;
   justify-content: center;
 }
 
+/* Dropdown menu */
+li ul.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #f2f1f0;
+  padding: 10px;
+  list-style-type: none;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+li:hover ul.dropdown {
+  display: block;
+}
+
+li ul.dropdown li {
+  display: block;
+  padding: 5px 10px;
+}
+
+li ul.dropdown li.active {
+  background-color: #FFAF5D; 
+  border-radius: 5px;
+}
+
+li ul.dropdown li.inactive {
+  background-color: transparent;
+}
+
 /* Selector  */
-
-
 .week-selector, .month-selector {
   display: flex;
   font-weight: bold;
@@ -61,12 +91,9 @@ ul {
   font-family: 'Prompt';
   color: #6B5045;
   margin-top: 10px;
-  
 }
 
-
 /* Grid */
-
 .posts-container {
   display: flex;
   flex-wrap: wrap;
@@ -82,8 +109,6 @@ ul {
   font-family: 'Space Mono';
   padding: 5%;
   margin-bottom: 5%;
-
-
 }
 
 .games-container {
@@ -108,14 +133,11 @@ ul {
 
 .game-table {
   padding: 1rem;
-
   text-align: left;
   font-family: 'Space Mono';
   font-size: 14.5px;
-  
   height: 100%;
   width: 100%;
-  
 }
 
 th {
@@ -174,7 +196,6 @@ p {
 .game-date {
   font-family: 'Space Mono';
   text-align: center;
-
 }
 
 .mlb-schedule {
