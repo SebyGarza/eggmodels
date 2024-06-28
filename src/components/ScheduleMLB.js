@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import mlbScheduleData from '../python/mlb/csv/mlb-elo-2024.json';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
-import '../App.css';
+import '../css/ScheduleMLB.css';
 
 const ScheduleMLB = ({ activeTab }) => {
     const [scheduleData, setScheduleData] = useState([]);
@@ -38,7 +38,7 @@ const ScheduleMLB = ({ activeTab }) => {
 
     return (
         <div className="mlb-schedule">
-            <div className="month-display">
+            <div className="week-selector">
                 <button onClick={handleCalendarVisibility}>
                     Calendar
                 </button>
@@ -58,42 +58,37 @@ const ScheduleMLB = ({ activeTab }) => {
                 {scheduleData
                     .filter((game) => game.parsedDate.toDateString() === selectedDate.toDateString())
                     .map((game, index) => (
-                        <div key={index} className="game-container">
-                            <div className="game-date">
-                                {formatDate(game.parsedDate)}
-                            </div>
-                            <div className="game-box">
-                                <table className="game-table">
-                                    <thead>
-                                        <tr>
-                                            <th>Teams</th>
-                                            <th>Win %</th>
-                                            <th>Spread</th>
-                                            <th>Score</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td className='team-name'>
-                                                <img className='team-logo' src={require(`../logosmlb/${game.team2}.png`)} alt={`${game.team2} Logo`} />
-                                                {game.team2}
-                                            </td>
-                                            <td>{calculateWinProbability(game.elo_prob2)}</td>
-                                            <td></td>
-                                            <td className='score'>{game.score2 ?? ''}</td>
-                                        </tr>
-                                        <tr>
-                                            <td className='team-name'>
-                                                <img className='team-logo' src={require(`../logosmlb/${game.team1}.png`)} alt={`${game.team1} Logo`} />
-                                                {game.team1}
-                                            </td>
-                                            <td>{calculateWinProbability(game.elo_prob1)}</td>
-                                            <td></td>
-                                            <td className='score'>{game.score1 ?? ''}</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
+                        <div key={index} className="game-box">
+                            <table className="game-table">
+                                <thead>
+                                    <tr>
+                                        <th>Teams</th>
+                                        <th>Win %</th>
+                                        <th>Spread</th>
+                                        <th>Score</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td className='team-name'>
+                                            <img className='team-logo' src={require(`../logosmlb/${game.team2}.png`)} alt={`${game.team2} Logo`} />
+                                            {game.team2}
+                                        </td>
+                                        <td>{calculateWinProbability(game.elo_prob2)}</td>
+                                        <td></td>
+                                        <td className='score'>{game.score2 ?? ''}</td>
+                                    </tr>
+                                    <tr>
+                                        <td className='team-name'>
+                                            <img className='team-logo' src={require(`../logosmlb/${game.team1}.png`)} alt={`${game.team1} Logo`} />
+                                            {game.team1}
+                                        </td>
+                                        <td>{calculateWinProbability(game.elo_prob1)}</td>
+                                        <td></td>
+                                        <td className='score'>{game.score1 ?? ''}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     ))
                 }
