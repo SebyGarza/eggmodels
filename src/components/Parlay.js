@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import '../Parlay.css';
-import nflScheduleData from '../python/nflModel.json';
+import nflScheduleData from '../python/nfl_2024/nflModel2024.json';
 
 const Parlay = ({ activeTab }) => {
     const [selectedWinners, setSelectedWinners] = useState([]);
-    const [week, setWeek] = useState(22); // Set the specific week you want to display.
+    const [week, setWeek] = useState(1); // Set the specific week you want to display.
 
     const handleWinnerSelection = (gameId, team, index) => {
         setSelectedWinners((prevSelectedWinners) => {

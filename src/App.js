@@ -5,7 +5,7 @@ import NavBar from './components/NavBar';
 import Content from './components/Content';
 
 function App() {
-  const [activeTab, setActiveTab] = useState('MLB');
+  const [activeTab, setActiveTab] = useState('NFL');
 
   return (
     <div className="App">

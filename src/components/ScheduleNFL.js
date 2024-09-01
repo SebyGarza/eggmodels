@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import nflScheduleData from '../python/nflModel.json';
+import nflScheduleData from '../python/nfl_2024/nflModel2024.json';
 import '../App.css';
 
 const ScheduleNFL = ({ activeTab }) => {
     const [scheduleData, setScheduleData] = useState([]);
-    const [selectedWeek, setSelectedWeek] = useState(22);
+    const [selectedWeek, setSelectedWeek] = useState(1);
 
     useEffect(() => {
         // Use the imported JSON data directly
@@ -16,7 +16,7 @@ const ScheduleNFL = ({ activeTab }) => {
     };
 
     const uniqueWeeks = Array.from(new Set(scheduleData.map((game) => game.Week)))
-      .filter((week) => week !== 'Week' && parseInt(week) >= 1);
+      .filter((week) => week !== 'Week' && parseInt(week) >= 1 && parseInt(week) < 3);
 
     // Function to calculate and format the win probability
     const calculateWinProbability = (prob) => {
