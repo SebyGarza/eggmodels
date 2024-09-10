@@ -14,5 +14,5 @@ def save_2024_games_as_json(csv_path, json_path):
     df_2024.to_json(json_path, orient='records', date_format='iso')
 
 csv_path = 'https://raw.githubusercontent.com/Neil-Paine-1/MLB-WAR-data-historical/master/mlb-elo-latest.csv'
-json_path = 'src/python/mlb/csv/mlb-elo-2024.json'
+json_path = 'src/python/mlb_2024/csv/mlb-elo-2024.json'
 save_2024_games_as_json(csv_path, json_path)

@@ -4,7 +4,7 @@ import '../App.css';
 
 const ScheduleNFL = ({ activeTab }) => {
     const [scheduleData, setScheduleData] = useState([]);
-    const [selectedWeek, setSelectedWeek] = useState(1);
+    const [selectedWeek, setSelectedWeek] = useState(2);
 
     useEffect(() => {
         // Use the imported JSON data directly

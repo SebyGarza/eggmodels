@@ -62,28 +62,28 @@ def scheduleScraper2024():
                         at = columns[5].text.strip()
                         if at == "@":
                             team_names1 = lastWord(columns[6].text.strip())
-                            team_names2 = lastWord(columns[3].text.strip())
+                            team_names2 = lastWord(columns[4].text.strip())
                             
                             try:
-                                scoreA = int(columns[4].text.strip())
+                                scoreA = int(columns[8].text.strip())
                             except:
                                 scoreA = None
 
                             try:
-                                scoreH = int(columns[7].text.strip())
+                                scoreH = int(columns[9].text.strip())
                             except:
                                 scoreH = None
                         else: 
-                            team_names1 = lastWord(columns[3].text.strip())
+                            team_names1 = lastWord(columns[4].text.strip())
                             team_names2 = lastWord(columns[6].text.strip())
 
                             try:
-                                scoreA = int(columns[4].text.strip())
+                                scoreA = int(columns[9].text.strip())
                             except:
                                 scoreA = None
 
                             try:
-                                scoreH = int(columns[7].text.strip())
+                                scoreH = int(columns[8].text.strip())
                             except:
                                 scoreH = None
 

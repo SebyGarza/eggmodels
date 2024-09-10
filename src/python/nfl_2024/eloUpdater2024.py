@@ -116,6 +116,10 @@ def update_home_elo_spread(df):
 
 def eloInit2024(df):
     elo_ratings = {'Rams': 1528.0089550979, 'Bills': 1680.7919693311, 'Dolphins': 1560.089544108, 'Patriots': 1357.7385330304, 'Bengals': 1584.3388714443, 'Steelers': 1548.1857372633, 'Falcons': 1404.7919853796, 'Saints': 1528.5292762906, 'Jets': 1428.2743951101, 'Ravens': 1698.5040729807, 'Panthers': 1275.9073386976, 'Browns': 1503.2941240452, 'Commanders': 1325.9133347224, 'Jaguars': 1483.8722050635, 'Lions': 1609.9090225553, 'Eagles': 1538.2708488579, 'Bears': 1445.5945198394, '49ers': 1717.4603613807, 'Texans': 1495.2849973243, 'Colts': 1449.1248490966, 'Vikings': 1478.8709878307, 'Packers': 1586.9817579459, 'Cardinals': 1364.7391170102, 'Chiefs': 1713.1392142694, 'Titans': 1399.182359068, 'Giants': 1436.4663792418, 'Chargers': 1414.1927719305, 'Raiders': 1495.4198402115, 'Cowboys': 1617.3456146225, 'Buccaneers': 1535.036434977, 'Seahawks': 1499.5585111418, 'Broncos': 1455.1239691316}
+    
+    for team in elo_ratings:
+        elo_ratings[team] = eloRevert(elo_ratings[team])
+
 
     # Update ElopreH and ElopreA columns only for week 1 games
     for index, row in df.iterrows():
