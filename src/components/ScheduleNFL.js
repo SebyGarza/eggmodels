@@ -4,7 +4,7 @@ import '../App.css';
 
 const ScheduleNFL = ({ activeTab }) => {
     const [scheduleData, setScheduleData] = useState([]);
-    const [selectedWeek, setSelectedWeek] = useState(2);
+    const [selectedWeek, setSelectedWeek] = useState(3);
 
     useEffect(() => {
         // Use the imported JSON data directly
@@ -16,7 +16,7 @@ const ScheduleNFL = ({ activeTab }) => {
     };
 
     const uniqueWeeks = Array.from(new Set(scheduleData.map((game) => game.Week)))
-      .filter((week) => week !== 'Week' && parseInt(week) >= 1 && parseInt(week) < 3);
+      .filter((week) => week !== 'Week' && parseInt(week) >= 1 && parseInt(week) < 19);
 
     // Function to calculate and format the win probability
     const calculateWinProbability = (prob) => {
