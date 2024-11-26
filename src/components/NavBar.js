@@ -32,12 +32,12 @@ const NavBar = ({ activeTab, setActiveTab }) => {
             </li>
           </ul>
         </li>
-        <li
+        {/* <li
           className={activeTab === 'MLB' ? 'active' : 'inactive'}
           onClick={() => setActiveTab('MLB')}
         >
           MLB
-        </li>
+        </li> */}
         <li
           className={activeTab === 'Blog' ? 'active' : 'inactive'}
           onClick={() => setActiveTab('Blog')}
