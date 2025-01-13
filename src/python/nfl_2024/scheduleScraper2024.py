@@ -55,7 +55,7 @@ def scheduleScraper2024():
                     if week == '':
                         week = 19
                     
-                    if week != "Week" and not week.startswith("Pre"):  # Exclude rows where Week is "Week"
+                    if week != "Week":  # Exclude rows where Week is "Week"
                         day = columns[1].text.strip()
                         date = columns[2].text.strip()
                         time = columns[8].text.strip()
