@@ -6,7 +6,7 @@ nflModel = scheduleScraper2024()
 nflModel = eloInit2024(nflModel)
 nflModel = update_win_prob_2024(nflModel)
 
-currentWeek = 19
+currentWeek = 23
 
 for i in range(1, currentWeek):
     nflModel = update_post_elos(nflModel)

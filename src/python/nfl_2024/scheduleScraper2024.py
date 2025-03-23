@@ -52,9 +52,8 @@ def scheduleScraper2024():
                         week = 21
                     if week == 'SuperBowl':
                         week = 22
-                    if week == '':
-                        week = 19
-                    
+                    if week == "":
+                        continue       
                     if week != "Week":  # Exclude rows where Week is "Week"
                         day = columns[1].text.strip()
                         date = columns[2].text.strip()
