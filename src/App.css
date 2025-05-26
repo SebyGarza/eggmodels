@@ -1,56 +1,130 @@
+/* -------------------------------------- */
+/*             FONT FACES                */
+/* -------------------------------------- */
 @font-face {
   font-family: 'Space Mono';
   src: url('./fonts/Space_Mono/SpaceMono-Regular.ttf') format('truetype');
-  /* Add additional font formats if needed */
 }
 
 @font-face {
   font-family: 'Prompt';
   src: url('./fonts/Prompt/Prompt-Black.ttf') format('truetype');
-  /* Add additional font formats if needed */
 }
 
+/* -------------------------------------- */
+/*              GENERAL LAYOUT           */
+/* -------------------------------------- */
 .navigation {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f2F1f0;
+  background-color: #f2f1f0;
   max-width: 100%;
 }
 
-.active {
-  background-color: #FFAF5D; 
-  border-radius: 5px; 
-} 
-
-.active, .inactive {
-  font-family: 'Prompt';
-  color: #6B5045;
-  display: inline-block;
-  margin: 10px;
-  cursor: pointer;
-  padding: 5px 10px; 
+body {
+  font-family: Georgia,serif;
+  background-color: #F2F1EF;
 }
 
-ul {
+/* -------------------------------------- */
+/*              NAVBAR                   */
+/* -------------------------------------- */
+.navbar-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  padding: 0px;
-  margin: 0px;
+  background-color: #F2F1EF;
+  padding-top: 20px;
 }
 
-li {
-  position: relative; /* Needed for the dropdown */
+.navbar-logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .navbar-logo {
-  max-width: 150px;
-  margin: 20px;
-  justify-content: center;
+  max-width: 160px;
+  height: auto;
 }
 
-/* Dropdown menu */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #F2F1EF;
+  padding: 10px 0;
+}
+
+/* Unifying base nav link styles */
+.navbar a,
+.navbar .dropdown-toggle {
+  font-family: 'Prompt';
+  color: #6B5045;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* Ensure layout doesn't shift when link is active */
+.navbar a.active,
+.navbar .dropdown-toggle.active {
+  background-color: #FFAF5D;
+}
+
+.navbar a:hover,
+.navbar .dropdown-toggle:hover {
+  background-color: #ffd3a4;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 160px;
+  display: flex;
+  flex-direction: column;
+  background-color: #F2F1EF;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.dropdown-menu a {
+  font-family: 'Prompt';
+  color: #6B5045;
+  padding: 10px 16px;
+  text-align: left;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 5px;
+}
+
+.dropdown-menu a:hover {
+  background-color: #ffd3a4;
+}
+
+/* -------------------------------------- */
+/*        DROPDOWN VIA <ul> STRUCTURE    */
+/*        (IF USED ELSEWHERE)            */
+/* -------------------------------------- */
+li {
+  position: relative;
+}
+
 li ul.dropdown {
   display: none;
   position: absolute;
@@ -73,7 +147,7 @@ li ul.dropdown li {
 }
 
 li ul.dropdown li.active {
-  background-color: #FFAF5D; 
+  background-color: #FFAF5D;
   border-radius: 5px;
 }
 
@@ -81,8 +155,11 @@ li ul.dropdown li.inactive {
   background-color: transparent;
 }
 
-/* Selector  */
-.week-selector, .month-selector {
+/* -------------------------------------- */
+/*              SELECTORS                */
+/* -------------------------------------- */
+.week-selector,
+.month-selector {
   display: flex;
   font-weight: bold;
   justify-content: center;
@@ -93,7 +170,9 @@ li ul.dropdown li.inactive {
   margin-top: 10px;
 }
 
-/* Grid */
+/* -------------------------------------- */
+/*              BLOG POSTS               */
+/* -------------------------------------- */
 .posts-container {
   display: flex;
   flex-wrap: wrap;
@@ -111,6 +190,9 @@ li ul.dropdown li.inactive {
   margin-bottom: 5%;
 }
 
+/* -------------------------------------- */
+/*              GAME BOXES               */
+/* -------------------------------------- */
 .games-container {
   display: flex;
   flex-wrap: wrap;
@@ -166,6 +248,9 @@ td {
   height: 35px;
 }
 
+/* -------------------------------------- */
+/*              CONTENT TEXT             */
+/* -------------------------------------- */
 .intros {
   font-family: 'Space Mono';
   text-align: center;
@@ -174,12 +259,6 @@ td {
 .score {
   font-family: 'Prompt';
   color: #6B5035;
-}
-
-a:hover,
-a:visited,
-a:active {
-    color: #0077cc; /* Set the same color for hover, visited, and active states */
 }
 
 pre {
@@ -203,7 +282,7 @@ p {
 }
 
 .month-display {
-  display: flex; /* Makes the container a flex container */
-  flex-direction: column; /* Stacks the flex items vertically */
-  align-items: center; /* Centers children vertically in the container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

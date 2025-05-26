@@ -1,52 +1,39 @@
-import React from 'react';
-import egglogo from '../logosnfl/egglogo.png'; // Import your JPG logo image
+import React, { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import egglogo from '../logosnfl/egglogo.png';
 
-const NavBar = ({ activeTab, setActiveTab }) => {
+function NavBar() {
+  const { pathname } = useLocation();
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
   return (
-    <nav className='navigation'>
-      <img src={egglogo} alt="Your Logo" className="navbar-logo" />
-      <ul>
-        <li
-          className={activeTab === 'NFL' ? 'active' : 'inactive'}
-          onClick={() => setActiveTab('NFL')}
+    <div className="navbar-container">
+      <div className="navbar-logo-wrapper">
+        <img src={egglogo} alt="eggModels logo" className="navbar-logo" />
+      </div>
+      <nav className="navbar">
+        <Link to="/" className={pathname === '/' ? 'active' : ''}>Home</Link>
+
+        <div
+          className="dropdown"
+          onMouseEnter={() => setDropdownOpen(true)}
+          onMouseLeave={() => setDropdownOpen(false)}
         >
-          NFL
-          <ul className='dropdown'>
-            <li
-              className={activeTab === 'Parlay' ? 'active' : 'inactive'}
-              onClick={(event) => {
-                event.stopPropagation();
-                setActiveTab('Parlay');
-              }}
-            >
-              Parlay
-            </li>
-            <li
-              className={activeTab === 'Rankings' ? 'active' : 'inactive'}
-              onClick={(event) => {
-                event.stopPropagation();
-                setActiveTab('Rankings');
-              }}
-            >
-              Rankings
-            </li>
-          </ul>
-        </li>
-        {/* <li
-          className={activeTab === 'MLB' ? 'active' : 'inactive'}
-          onClick={() => setActiveTab('MLB')}
-        >
-          MLB
-        </li> */}
-        <li
-          className={activeTab === 'Blog' ? 'active' : 'inactive'}
-          onClick={() => setActiveTab('Blog')}
-        >
-          Blog
-        </li>
-      </ul>
-    </nav>
+          <Link to="/nfl" className={`dropdown-toggle ${pathname.startsWith('/nfl') ? 'active' : ''}`}>
+            NFL
+          </Link>
+          {dropdownOpen && (
+            <div className="dropdown-menu">
+              <Link to="/nfl/parlay" className={pathname === '/nfl/parlay' ? 'active' : ''}>Parlay</Link>
+              <Link to="/nfl/rankings" className={pathname === '/nfl/rankings' ? 'active' : ''}>Rankings</Link>
+            </div>
+          )}
+        </div>
+
+        <Link to="/blog" className={pathname === '/blog' ? 'active' : ''}>Blog</Link>
+      </nav>
+    </div>
   );
-};
+}
 
 export default NavBar;

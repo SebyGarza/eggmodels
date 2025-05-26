@@ -1,18 +1,44 @@
-// src/App.js
-import React, { useState } from 'react';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
+import ScheduleNFL from './components/ScheduleNFL';
+import Blog from './components/Blog';
+import Parlay from './components/Parlay';
+import Rankings from './components/Rankings';
 import NavBar from './components/NavBar';
-import Content from './components/Content';
+import Home from './components/Home'
 
-function App() {
-  const [activeTab, setActiveTab] = useState('NFL');
+// AppWrapper inside App.js
+function AppWrapper() {
+  const location = useLocation();
+  const tabFromPath = location.pathname.split('/')[1].toUpperCase() || 'NFL';
 
   return (
-    <div className="App">
-      <NavBar activeTab={activeTab} setActiveTab={setActiveTab} />
-      <Content activeTab={activeTab} />
-    </div>
+    <>
+      <NavBar activeTab={tabFromPath} />
+      <Routes>
+        <Route path="/nfl" element={<ScheduleNFL />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/nfl/parlay" element={<Parlay />} />
+        <Route path="/nfl/rankings" element={<Rankings />} />
+        {/* Default route (optional) */}
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+    </>
   );
 }
+
+function App() {
+  return (
+    <Router>
+      <div className="App">
+        <AppWrapper />
+      </div>
+    </Router>
+  );
+}
+
 
 export default App;
