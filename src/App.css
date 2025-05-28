@@ -1,7 +1,7 @@
 /* -------------------------------------- */
 /*             FONT FACES                */
 /* -------------------------------------- */
-@font-face {
+/* @font-face {
   font-family: 'Space Mono';
   src: url('./fonts/Space_Mono/SpaceMono-Regular.ttf') format('truetype');
 }
@@ -9,7 +9,7 @@
 @font-face {
   font-family: 'Prompt';
   src: url('./fonts/Prompt/Prompt-Black.ttf') format('truetype');
-}
+} */
 
 /* -------------------------------------- */
 /*              GENERAL LAYOUT           */
@@ -27,134 +27,6 @@ body {
   font-family: Georgia,serif;
   background-color: #F2F1EF;
 }
-
-/* -------------------------------------- */
-/*              NAVBAR                   */
-/* -------------------------------------- */
-.navbar-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #F2F1EF;
-  padding-top: 20px;
-}
-
-.navbar-logo-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.navbar-logo {
-  max-width: 160px;
-  height: auto;
-}
-
-.navbar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  background-color: #F2F1EF;
-  padding: 10px 0;
-}
-
-/* Unifying base nav link styles */
-.navbar a,
-.navbar .dropdown-toggle {
-  font-family: 'Prompt';
-  color: #6B5045;
-  text-decoration: none;
-  padding: 8px 16px;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-  cursor: pointer;
-  display: inline-block;
-}
-
-/* Ensure layout doesn't shift when link is active */
-.navbar a.active,
-.navbar .dropdown-toggle.active {
-  background-color: #FFAF5D;
-}
-
-.navbar a:hover,
-.navbar .dropdown-toggle:hover {
-  background-color: #ffd3a4;
-}
-
-/* Dropdown */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  min-width: 160px;
-  display: flex;
-  flex-direction: column;
-  background-color: #F2F1EF;
-  border-radius: 5px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  z-index: 1000;
-}
-
-.dropdown-menu a {
-  font-family: 'Prompt';
-  color: #6B5045;
-  padding: 10px 16px;
-  text-align: left;
-  text-decoration: none;
-  white-space: nowrap;
-  border-radius: 5px;
-}
-
-.dropdown-menu a:hover {
-  background-color: #ffd3a4;
-}
-
-/* -------------------------------------- */
-/*        DROPDOWN VIA <ul> STRUCTURE    */
-/*        (IF USED ELSEWHERE)            */
-/* -------------------------------------- */
-li {
-  position: relative;
-}
-
-li ul.dropdown {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: #f2f1f0;
-  padding: 10px;
-  list-style-type: none;
-  border-radius: 5px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-li:hover ul.dropdown {
-  display: block;
-}
-
-li ul.dropdown li {
-  display: block;
-  padding: 5px 10px;
-}
-
-li ul.dropdown li.active {
-  background-color: #FFAF5D;
-  border-radius: 5px;
-}
-
-li ul.dropdown li.inactive {
-  background-color: transparent;
-}
-
 /* -------------------------------------- */
 /*              SELECTORS                */
 /* -------------------------------------- */

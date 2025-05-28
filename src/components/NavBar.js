@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import egglogo from '../logosnfl/egglogo.png';
+import '../css/Navbar.css';
 
 function NavBar() {
   const { pathname } = useLocation();

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import welcomeMarkdown from '../markdown/welcome.md';
+import '../css/Home.css';
 
 function Home() {
   const [content, setContent] = useState('');

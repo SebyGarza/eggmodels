@@ -27,7 +27,7 @@ class WhatsNew extends Component {
     return (
       <div className='blog'>
         <div className='intros'>
-          <h1>eggModels</h1>
+          <h1>EggModels</h1>
           <h3><a href="https://twitter.com/eugenio_garzag" target="_blank" rel="noopener noreferrer">@eugenio_garzag</a> <a href="https://twitter.com/sebygarza" target="_blank" rel="noopener noreferrer">@sebygarza</a></h3>
 
         </div>
