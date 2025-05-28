@@ -2,6 +2,27 @@ import React, { useEffect, useState } from 'react';
 import { Line } from 'react-chartjs-2';
 import nflModel from '../python/nfl_2024/nflModel2024.json';
 import '../Rankings.css';
+import {
+  Chart as ChartJS,
+  LineElement,
+  PointElement,
+  LinearScale,
+  CategoryScale,
+  Title,
+  Tooltip,
+  Legend,
+} from 'chart.js';
+
+ChartJS.register(
+  LineElement,
+  PointElement,
+  LinearScale,
+  CategoryScale,
+  Title,
+  Tooltip,
+  Legend
+);
+
 
 // Define a dictionary to map team names to their main colors
 const teamColors = {
