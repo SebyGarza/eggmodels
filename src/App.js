@@ -8,6 +8,7 @@ import Parlay from './components/Parlay';
 import Rankings from './components/Rankings';
 import NavBar from './components/NavBar';
 import Home from './components/Home'
+import Tennis from './components/Tennis'
 
 // AppWrapper inside App.js
 function AppWrapper() {
@@ -24,6 +25,7 @@ function AppWrapper() {
         <Route path="/nfl/rankings" element={<Rankings />} />
         {/* Default route (optional) */}
         <Route path="/" element={<Home />} />
+        <Route path="/tennis" element={<Tennis />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </>

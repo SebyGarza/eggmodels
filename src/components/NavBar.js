@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import egglogo from '../logosnfl/egglogo.png';
+import egglogo from '../logosnfl/egg.png';
 import '../css/Navbar.css';
 
 function NavBar() {
@@ -30,7 +30,8 @@ function NavBar() {
             </div>
           )}
         </div>
-
+        
+        <Link to="/tennis" className={pathname === '/tennis' ? 'active' : ''}>Tennis</Link>
         <Link to="/blog" className={pathname === '/blog' ? 'active' : ''}>Blog</Link>
       </nav>
     </div>
