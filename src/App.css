@@ -43,26 +43,6 @@ body {
 }
 
 /* -------------------------------------- */
-/*              BLOG POSTS               */
-/* -------------------------------------- */
-.posts-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  justify-content: space-evenly;
-}
-
-.post-box {
-  width: 80%;
-  text-align: left;
-  border-radius: 10px;
-  border: 2px solid grey;
-  font-family: 'Space Mono';
-  padding: 5%;
-  margin-bottom: 5%;
-}
-
-/* -------------------------------------- */
 /*              GAME BOXES               */
 /* -------------------------------------- */
 .games-container {

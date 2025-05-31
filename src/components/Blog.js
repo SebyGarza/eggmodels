@@ -1,6 +1,7 @@
 import React, { Fragment, Component } from 'react';
 import Helmet from 'react-helmet';
 import ReactMarkdown from 'react-markdown';
+import '../css/Blog.css';
 
 // Exclude markdown files by name
 const EXCLUDED_FILES = ['home.md'];
@@ -8,14 +9,14 @@ const EXCLUDED_FILES = ['home.md'];
 const importAll = (r) =>
   r
     .keys()
-    .filter((filename) => !EXCLUDED_FILES.some(ex => filename.includes(ex))) // ⛔️ exclude specified files
+    .filter((filename) => !EXCLUDED_FILES.some(ex => filename.includes(ex)))
     .map(r);
 
 const markdownFiles = importAll(require.context('../markdown', false, /\.md$/))
   .sort()
   .reverse();
 
-class WhatsNew extends Component {
+class Blog extends Component {
   state = {
     posts: [],
   };
@@ -46,24 +47,18 @@ class WhatsNew extends Component {
         </div>
 
         <div className='posts-container'>
-          <div className='post-box'>
-            <Fragment>
-              <Helmet title="eggModels" />
-              <section>
-                {
-                  posts.map((post, idx) => (
-                    <div key={idx}>
-                      <ReactMarkdown>{post}</ReactMarkdown>
-                    </div>
-                  ))
-                }
-              </section>
-            </Fragment>
-          </div>
+          {posts.map((post, idx) => (
+            <div key={idx} className="post-box">
+              <Fragment>
+                <Helmet title="eggModels Blog" />
+                <ReactMarkdown>{post}</ReactMarkdown>
+              </Fragment>
+            </div>
+          ))}
         </div>
       </div>
     );
   }
 }
 
-export default WhatsNew;
+export default Blog;

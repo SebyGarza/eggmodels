@@ -1,0 +1,33 @@
+/* Blog.css */
+
+/* -------------------------------------- */
+/*              BLOG POSTS               */
+/* -------------------------------------- */
+.posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-evenly;
+}
+
+.post-box {
+  width: 80%;
+  text-align: left;
+  border-radius: 10px;
+  border: 2px solid grey;
+  font-family: 'Space Mono';
+  padding: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 5%;
+  font-size: 1.15rem; 
+  line-height: 1.75;
+}
+
+/* -------------------------------------- */
+/*              CONTENT TEXT             */
+/* -------------------------------------- */
+.intros {
+  font-family: 'Space Mono';
+  text-align: center;
+}
