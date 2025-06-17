@@ -11,7 +11,7 @@ const Tennis = ({ activeTab }) => {
   return (
     <div className="nfl-schedule">
       <div className="week-selector">
-        <label>Tennis Elo Matchup Predictions</label>
+        <label>French Open</label>
       </div>
 
       <div className="games-container">

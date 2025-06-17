@@ -1,5 +1,4 @@
 import React, { Fragment, Component } from 'react';
-import Helmet from 'react-helmet';
 import ReactMarkdown from 'react-markdown';
 import '../css/Blog.css';
 
@@ -41,8 +40,7 @@ class Blog extends Component {
         <div className='intros'>
           <h1>EggModels</h1>
           <h3>
-            <a href="https://twitter.com/eugenio_garzag" target="_blank" rel="noopener noreferrer">@eugenio_garzag</a>{' '}
-            <a href="https://twitter.com/sebygarza" target="_blank" rel="noopener noreferrer">@sebygarza</a>
+            <h4>jacques.morris@eggmodels.com | durie@eggmodels.com | egg@eggmodels.com | sebastian.garzagarcia@eggmodels.com</h4>
           </h3>
         </div>
 
@@ -50,7 +48,6 @@ class Blog extends Component {
           {posts.map((post, idx) => (
             <div key={idx} className="post-box">
               <Fragment>
-                <Helmet title="eggModels Blog" />
                 <ReactMarkdown>{post}</ReactMarkdown>
               </Fragment>
             </div>

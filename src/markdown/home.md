@@ -1,5 +1,5 @@
 # Welcome to EggModels
-#### Mathew Durie, Phillip Weaver, Jacques Morris, Eugenio Garza Garcia, Sebastian Garza Garcia
+#### Mathew Durie, Philip Weaver, Jacques Morris, Eugenio Garza Garcia, Sebastian Garza Garcia
 
 ___
 
