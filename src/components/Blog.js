@@ -40,7 +40,7 @@ class Blog extends Component {
         <div className='intros'>
           <h1>EggModels</h1>
           <h3>
-            <h4>jacques.morris@eggmodels.com | durie@eggmodels.com | egg@eggmodels.com | sebastian.garzagarcia@eggmodels.com</h4>
+            <h4>jacques.morris@eggmodels.com | durie@eggmodels.com | egg@eggmodels.com | sebastian.garzagarcia@eggmodels.com | philip@eggmodels.com</h4>
           </h3>
         </div>
 

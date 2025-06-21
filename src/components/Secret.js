@@ -191,6 +191,7 @@ const Secret = () => {
         <thead>
           <tr>
             <th>Line ID</th>
+            <th>Wager ID</th>
             <th>Odds</th>
             <th>Matched Stake</th>
             <th>Profit</th>
@@ -200,6 +201,7 @@ const Secret = () => {
           {recentClosedBets.map(bet => (
             <tr key={bet.wager_id || bet.line_id}>
               <td>{bet.line_id}</td>
+              <td>{bet.wager_id}</td>
               <td>{bet.odds}</td>
               <td>{bet.matched_stake}</td>
               <td>{bet.profit}</td>

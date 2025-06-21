@@ -102,3 +102,42 @@ exports.getMarkets = functions.https.onRequest((req, res) => {
     }
   });
 });
+
+exports.getWagerById = functions.https.onRequest((req, res) => {
+  cors(req, res, async () => {
+    try {
+      const wagerId = req.query.wager_id;
+      if (!wagerId) {
+        return res.status(400).json({ error: 'Missing wager_id' });
+      }
+
+      await ensureLoggedIn();  // ensure accessToken is valid
+
+      const url = `https://cash.api.prophetx.co/partner/v2/mm/get_wager/${encodeURIComponent(wagerId)}`;
+
+      const apiRes = await fetch(url, {
+        headers: { Authorization: `Bearer ${accessToken}` }
+      });
+
+      if (!apiRes.ok) {
+        const text = await apiRes.text();
+        console.error('Get wager by ID failed:', text);
+
+        if (apiRes.status === 401) {
+          accessToken = null;
+          await ensureLoggedIn();
+          return exports.getWagerById(req, res);  // retry after login
+        }
+
+        return res.status(500).json({ error: 'Failed to fetch wager by ID' });
+      }
+
+      const data = await apiRes.json();
+      res.json(data);
+
+    } catch (err) {
+      console.error('Server error:', err);
+      res.status(500).json({ error: 'Server error' });
+    }
+  });
+});
