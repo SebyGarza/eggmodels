@@ -120,10 +120,6 @@ pre {
   overflow: scroll;
 }
 
-p {
-  overflow: scroll;
-}
-
 .game-date {
   font-family: 'Space Mono';
   text-align: center;

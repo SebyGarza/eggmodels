@@ -4,7 +4,7 @@
 
 ## Quick Recap
 
-As promised in our previous blog post, we have been bulding a new model that was initially scheduled for a 2025 Wimbeldon release. But with some good luck and hard work from the team we have successfully deployed our first test/research trades this weekend at the WTA Bad Homburg, WTA Berlin, and Queens ATP events. We look forward to sharing some preliminary results with you as soon as we have them but in the meantime we hope that this brief explainer on our approach is of interest to our small but extreemly smart and handsome readers.
+As promised in our previous blog post, we have been bulding a new model that was initially scheduled for a 2025 Wimbeldon release. But with some good luck and hard work from the team we have successfully deployed our first test/research trades this weekend at the WTA Bad Homburg, WTA Berlin, and Queens ATP events. We look forward to sharing some preliminary results with you as soon as we have them but in the meantime we hope that this brief explainer on our approach is of interest to our small but extremely smart and handsome readers.
 
 
 ## How We Built a Winning Tennis Prediction Model
