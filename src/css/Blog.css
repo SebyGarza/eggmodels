@@ -3,7 +3,7 @@
 /* -------------------------------------- */
 /*              BLOG POSTS               */
 /* -------------------------------------- */
-.posts-container {
+.posts-container{
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
@@ -23,6 +23,13 @@
   font-size: 1.15rem; 
   line-height: 1.75;
 }
+
+.post-box img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 
 /* -------------------------------------- */
 /*              CONTENT TEXT             */

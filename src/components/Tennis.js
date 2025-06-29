@@ -4,12 +4,11 @@ import { db } from '../firebase';
 import countries from 'i18n-iso-countries';
 import enLocale from 'i18n-iso-countries/langs/en.json';
 
-countries.registerLocale(enLocale); // register English locale
+countries.registerLocale(enLocale);
 
 const Tennis = ({ activeTab }) => {
-  const [data, setData] = useState([]);
+  const [eventMatchMap, setEventMatchMap] = useState({});
   const [latestDateStr, setLatestDateStr] = useState(null);
-  const [breakEvenMap, setBreakEvenMap] = useState({});
 
   useEffect(() => {
     const fetchLatestMatches = async () => {
@@ -28,26 +27,16 @@ const Tennis = ({ activeTab }) => {
         const allDates = Object.keys(dateMatchMap);
         const latestStr = allDates.sort((a, b) => new Date(b) - new Date(a))[0];
         const latestMatches = dateMatchMap[latestStr] || [];
-
         setLatestDateStr(latestStr);
-        const seen = new Set();
-        const dedupedMatches = [];
-        const breakEvenMap = {};
 
+        const map = {};
         latestMatches.forEach(match => {
-          const player = match.Player;
-          const opponent = match.Opponent;
-          breakEvenMap[player] = match["Breakeven Odds"];
-
-          const key = [player, opponent].sort().join("|");
-          if (!seen.has(key)) {
-            seen.add(key);
-            dedupedMatches.push(match);
-          }
+          const eventId = match.event_id;
+          if (!map[eventId]) map[eventId] = [];
+          if (map[eventId].length < 2) map[eventId].push(match);
         });
 
-        setData(dedupedMatches);
-        setBreakEvenMap(breakEvenMap);
+        setEventMatchMap(map);
       } catch (err) {
         console.error("❌ Error fetching tennis data:", err);
       }
@@ -59,9 +48,7 @@ const Tennis = ({ activeTab }) => {
   const capitalizeFullName = (name) => {
     return name
       .split(" ")
-      .map(part =>
-        part.charAt(0).toUpperCase() + part.slice(1).toLowerCase()
-      )
+      .map(part => part.charAt(0).toUpperCase() + part.slice(1).toLowerCase())
       .join(" ");
   };
 
@@ -76,42 +63,52 @@ const Tennis = ({ activeTab }) => {
       <div className="week-selector">
         <label>Latest Matches{latestDateStr ? ` – ${latestDateStr}` : ''}</label>
       </div>
+      <div className="markdown-container">
+        <h4>
+          Disclaimer: The sum of breakeven probabilities may not always sum to 100% (or breakeven odds sum to 0). 
+          This is by design and baked into the parameters of the model as a built-in margin of safety.
+        </h4>
+      </div>
 
       <div className="games-container">
-        {data.map((match, index) => (
-          <div key={index} className="game-box">
-            <table className="game-table">
-              <thead>
-                <tr>
-                  <th>Player</th>
-                  <th>Win Odds</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td className="team-name">
-                    {countryToEmoji(match.player_country)} {capitalizeFullName(match.Player) || "N/A"}
-                  </td>
-                  <td className="probability">
-                    {Number(breakEvenMap[match.Player]) > 0
-                      ? `+${Number(breakEvenMap[match.Player])}`
-                      : Number(breakEvenMap[match.Player])}
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    {countryToEmoji(match.opponent_country)} {capitalizeFullName(match.Opponent) || "N/A"}
-                  </td>
-                  <td className="probability">
-                    {Number(breakEvenMap[match.Opponent]) > 0
-                      ? `+${Number(breakEvenMap[match.Opponent])}`
-                      : Number(breakEvenMap[match.Opponent])}
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        ))}
+        {Object.entries(eventMatchMap).map(([eventId, players], index) => {
+          if (players.length < 2) return null;
+          const [p1, p2] = players;
+          return (
+            <div key={eventId} className="game-box">
+              <table className="game-table">
+                <thead>
+                  <tr>
+                    <th>Player</th>
+                    <th>Break Even Odds</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="team-name">
+                      {countryToEmoji(p1.player_country)} {capitalizeFullName(p1.Player)}
+                    </td>
+                    <td className="probability">
+                      {Number(p1["Breakeven Odds"]) > 0
+                        ? `+${Number(p1["Breakeven Odds"])}`
+                        : Number(p1["Breakeven Odds"])}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="team-name">
+                      {countryToEmoji(p2.player_country)} {capitalizeFullName(p2.Player)}
+                    </td>
+                    <td className="probability">
+                      {Number(p2["Breakeven Odds"]) > 0
+                        ? `+${Number(p2["Breakeven Odds"])}`
+                        : Number(p2["Breakeven Odds"])}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

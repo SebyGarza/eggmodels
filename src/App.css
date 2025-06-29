@@ -72,6 +72,9 @@ body {
   font-size: 14.5px;
   height: 100%;
   width: 100%;
+  table-layout: fixed;
+  
+
 }
 
 th {

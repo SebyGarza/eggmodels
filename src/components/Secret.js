@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import { collection, getDocs } from 'firebase/firestore';
+import { db } from '../firebase';
+import '../App.css';
 
 const Secret = () => {
   const [groupedData, setGroupedData] = useState([]);
@@ -7,6 +10,23 @@ const Secret = () => {
   const [statusMessage, setStatusMessage] = useState('Starting...');
   const [profitLast24, setProfitLast24] = useState(0);
   const [error, setError] = useState(null);
+
+  const fetchLineIdNameMapFromFirestore = async () => {
+    const snapshot = await getDocs(collection(db, "model_outputs"));
+    const allDocs = snapshot.docs.map(doc => doc.data());
+
+    const map = {};
+    allDocs.forEach(doc => {
+      const lineId = doc["Player line_id"];
+      const playerName = doc["match_name"];
+
+      if (lineId && playerName) {
+        map[lineId.trim()] = [playerName, doc['Player']];
+      }
+    });
+
+    return map;
+  };
 
   useEffect(() => {
     const runProcess = async () => {
@@ -17,42 +37,19 @@ const Secret = () => {
         const data = await res.json();
         const wagers = data.data?.wagers || [];
 
-        setStatusMessage("Fetching markets...");
-        const openWagers = wagers.filter(w => w.status === 'open');
-        const uniqueEventIds = [...new Set(openWagers.map(w => w.sport_event_id))];
+        setStatusMessage("Fetching names from Firestore...");
+        const lineIdMap = await fetchLineIdNameMapFromFirestore();
 
-        let allSelections = [];
-        for (let eventId of uniqueEventIds) {
-          const marketRes = await fetch(`https://us-central1-egg-models.cloudfunctions.net/getMarkets?event_id=${eventId}`);
-          if (!marketRes.ok) continue;
-          const marketData = await marketRes.json();
-          const markets = marketData.data?.markets || [];
-
-          markets.forEach(market => {
-            if (market.name === 'Moneyline') {
-              market.selections.flat().forEach(selection => {
-                allSelections.push({
-                  line_id: selection.line_id,
-                  name: selection.name
-                });
-              });
-            }
-          });
-        }
-
-        const lineIdMap = {};
-        allSelections.forEach(sel => {
-          if (!lineIdMap[sel.line_id]) {
-            lineIdMap[sel.line_id] = sel.name;
-          }
+        const enrichedWagers = wagers.map(w => {
+          const namePlayer = lineIdMap[w.line_id] || [null, null];
+          return {
+            ...w,
+            name: namePlayer[0],
+            player: namePlayer[1],
+          };
         });
 
-        const enrichedWagers = wagers.map(w => ({
-          ...w,
-          name: lineIdMap[w.line_id] || null
-        }));
-
-        // -------- Status of Open Bets --------
+        // Status of Open Bets
         const preMatch = enrichedWagers.filter(w =>
           w.winning_status === "tbd" &&
           w.status !== "canceled" &&
@@ -120,7 +117,7 @@ const Secret = () => {
 
         setGroupedData(newData);
 
-        // -------- Bets Closed in Last 24 Hours --------
+        // Closed Bets in Last 24h
         const cutoffTime = new Date(Date.now() - 24 * 3600 * 1000);
         const closed = enrichedWagers
           .filter(w => w.winning_status !== "tbd" && w.settled_at && new Date(w.settled_at) >= cutoffTime)
@@ -130,10 +127,7 @@ const Secret = () => {
         setRecentClosedBets(closed);
         setProfitLast24(profitSum);
 
-
-        setRecentClosedBets(closed);
-
-        // -------- Bets Currently Open --------
+        // Currently Open Bets
         const open = enrichedWagers
           .filter(w =>
             w.name &&
@@ -144,8 +138,7 @@ const Secret = () => {
           .sort((a, b) => (b.matched_stake || 0) - (a.matched_stake || 0));
 
         setCurrentOpenBets(open);
-
-        setStatusMessage("Done!");
+        setStatusMessage("");
       } catch (e) {
         console.error(e);
         setError(e.message);
@@ -158,79 +151,93 @@ const Secret = () => {
 
   return (
     <div>
-      <h1>Secret</h1>
       <h3>{statusMessage}</h3>
       {error && <p style={{ color: 'red' }}>{error}</p>}
 
       <h2>Status of Open Bets</h2>
-      <table border="1">
-        <thead>
-          <tr>
-            <th>Status</th>
-            <th>DLLs</th>
-            <th>Count</th>
-            <th>% DLLs</th>
-          </tr>
-        </thead>
-        <tbody>
-          {groupedData.map(row => (
-            <tr key={row.matching_status}>
-              <td>{row.matching_status}</td>
-              <td>{row.dlls.toFixed(2)}</td>
-              <td>{row.count}</td>
-              <td>{row["% dlls"]}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <div className="games-container">
+        <div className="game-box">
+          <table className="game-table">
+            <thead>
+              <tr>
+                <th>Status</th>
+                <th>DLLs</th>
+                <th>Count</th>
+                <th>% DLLs</th>
+              </tr>
+            </thead>
+            <tbody>
+              {groupedData.map(row => (
+                <tr key={row.matching_status}>
+                  <td>{row.matching_status}</td>
+                  <td>{row.dlls.toFixed(2)}</td>
+                  <td>{row.count}</td>
+                  <td>{row["% dlls"]}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
 
       <h2>Bets Closed in Last 24 hrs</h2>
       <p>Profit in last 24 hrs: {profitLast24.toFixed(2)}</p>
-
-      <table border="1">
-        <thead>
-          <tr>
-            <th>Line ID</th>
-            <th>Wager ID</th>
-            <th>Odds</th>
-            <th>Matched Stake</th>
-            <th>Profit</th>
-          </tr>
-        </thead>
-        <tbody>
-          {recentClosedBets.map(bet => (
-            <tr key={bet.wager_id || bet.line_id}>
-              <td>{bet.line_id}</td>
-              <td>{bet.wager_id}</td>
-              <td>{bet.odds}</td>
-              <td>{bet.matched_stake}</td>
-              <td>{bet.profit}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <div className="games-container">
+        <div>
+          <table className="game-table">
+            <thead>
+              <tr>
+                <th>Match</th>
+                <th>Player Bet On</th>
+                <th>Line ID</th>
+                <th>Wager ID</th>
+                <th>Odds</th>
+                <th>Matched Stake</th>
+                <th>Profit</th>
+              </tr>
+            </thead>
+            <tbody>
+              {recentClosedBets.map(bet => (
+                <tr key={bet.wager_id || bet.line_id}>
+                  <td>{bet.name || "Unknown"}</td>
+                  <td>{bet.player}</td>
+                  <td>{bet.line_id}</td>
+                  <td>{bet.wager_id}</td>
+                  <td>{bet.odds}</td>
+                  <td>{bet.matched_stake}</td>
+                  <td>{bet.profit}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
 
       <h2>Bets Currently Open</h2>
-      <table border="1">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Odds</th>
-            <th>Matched Stake</th>
-            <th>Original Stake</th>
-          </tr>
-        </thead>
-        <tbody>
-          {currentOpenBets.map(bet => (
-            <tr key={bet.wager_id || bet.line_id}>
-              <td>{bet.name}</td>
-              <td>{bet.odds}</td>
-              <td>{bet.matched_stake}</td>
-              <td>{bet.original_stake}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <div className="games-container">
+        <div className="game-box">
+          <table className="game-table">
+            <thead>
+              <tr>
+                <th>Player Bet On</th>
+                <th>Odds</th>
+                <th>Matched Stake</th>
+                <th>Original Stake</th>
+              </tr>
+            </thead>
+            <tbody>
+              {currentOpenBets.map(bet => (
+                <tr key={bet.wager_id || bet.line_id}>
+                  <td>{bet.player}</td>
+                  <td>{bet.odds}</td>
+                  <td>{bet.matched_stake}</td>
+                  <td>{bet.original_stake}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   );
 };
